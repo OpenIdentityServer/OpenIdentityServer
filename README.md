@@ -2,7 +2,7 @@
 
 **OpenIdentityServer**
 
-[![CLA assistant](https://cla-assistant.io/readme/badge/2pNza/OpenIdentityServer)](https://cla-assistant.io/2pNza/OpenIdentityServer) [![AGPL-3.0 License](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0.html) [![CI](https://github.com/2pNza/OpenIdentityServer/actions/workflows/ci.yml/badge.svg)](https://github.com/2pNza/OpenIdentityServer/actions/workflows/ci.yml)
+[![CLA Assistant](https://img.shields.io/badge/CLA%20Assistant-green?style=for-the-badge)](https://cla-assistant.io/2pNza/OpenIdentityServer)  [![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg?style=for-the-badge)](https://www.gnu.org/licenses/agpl-3.0.html)  [![CI Status](https://img.shields.io/github/actions/workflow/status/2pNza/OpenIdentityServer/ci.yml?style=for-the-badge&label=CI)](https://github.com/2pNza/OpenIdentityServer/actions/workflows/ci.yml)
 
 
 <img width="155" height="51" alt="image" src="https://github.com/user-attachments/assets/683e5ff5-2721-4e0a-aa46-32a1ff060986" />
@@ -12,20 +12,17 @@
 ### WARNING! 
 This version is experimental! Wait for version 1.0.0. If you use it, you do so at your own risk.
 
-**2pNza.OpenIdentityServer**  
-  [![NuGet](https://img.shields.io/nuget/v/2pNza.OpenIdentityServer.svg)](https://www.nuget.org/packages/2pNza.OpenIdentityServer/)
+---
 
-**2pNza.OpenIdentityServer.AspNetIdentity**  
-  [![NuGet](https://img.shields.io/nuget/v/2pNza.OpenIdentityServer.AspNetIdentity.svg)](https://www.nuget.org/packages/2pNza.OpenIdentityServer.AspNetIdentity/)
+### NuGet Packages
 
-**2pNza.OpenIdentityServer.EntityFramework**  
-  [![NuGet](https://img.shields.io/nuget/v/2pNza.OpenIdentityServer.EntityFramework.svg)](https://www.nuget.org/packages/2pNza.OpenIdentityServer.EntityFramework/)
-
-**2pNza.OpenIdentityServer.EntityFramework.Storage**  
-  [![NuGet](https://img.shields.io/nuget/v/2pNza.OpenIdentityServer.EntityFramework.Storage.svg)](https://www.nuget.org/packages/2pNza.OpenIdentityServer.EntityFramework.Storage/)
-
-**2pNza.OpenIdentityServer.Storage**  
-  [![NuGet](https://img.shields.io/nuget/v/2pNza.OpenIdentityServer.Storage.svg)](https://www.nuget.org/packages/2pNza.OpenIdentityServer.Storage/)
+| Package Name                                      | Badge                                                                                              |
+|---------------------------------------------------|----------------------------------------------------------------------------------------------------|
+| OpenIdentityServer                            | [![NuGet](https://img.shields.io/nuget/v/2pNza.OpenIdentityServer.svg?style=for-the-badge)](https://www.nuget.org/packages/2pNza.OpenIdentityServer/) |
+| OpenIdentityServer.AspNetIdentity             | [![NuGet](https://img.shields.io/nuget/v/2pNza.OpenIdentityServer.AspNetIdentity.svg?style=for-the-badge)](https://www.nuget.org/packages/2pNza.OpenIdentityServer.AspNetIdentity/) |
+| OpenIdentityServer.EntityFramework            | [![NuGet](https://img.shields.io/nuget/v/2pNza.OpenIdentityServer.EntityFramework.svg?style=for-the-badge)](https://www.nuget.org/packages/2pNza.OpenIdentityServer.EntityFramework/) |
+| OpenIdentityServer.EntityFramework.Storage    | [![NuGet](https://img.shields.io/nuget/v/2pNza.OpenIdentityServer.EntityFramework.Storage.svg?style=for-the-badge)](https://www.nuget.org/packages/2pNza.OpenIdentityServer.EntityFramework.Storage/) |
+| OpenIdentityServer.Storage                    | [![NuGet](https://img.shields.io/nuget/v/2pNza.OpenIdentityServer.Storage.svg?style=for-the-badge)](https://www.nuget.org/packages/2pNza.OpenIdentityServer.Storage/) |
 
 ---
 

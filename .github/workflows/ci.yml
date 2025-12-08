@@ -3,10 +3,10 @@ name: 'CI'
 on:
   push:
     branches:
-    - main
-    - features/**
+      - main
+      - features/**
     tags:
-    - '*.*.*'
+      - '*.*.*'
   pull_request:
 
 env:
@@ -20,14 +20,29 @@ jobs:
         runs-on: [macOS-latest, ubuntu-latest, windows-latest]
     name: ${{ matrix.runs-on }}
     runs-on: ${{ matrix.runs-on }}
-    steps:
-    - uses: actions/checkout@af513c7a016048ae468971c52ed77d9562c7c819
-    - run: dotnet --info
     
+    steps:
+    - uses: actions/checkout@v2
+    - run: dotnet --info 
+
+    - name: Set up .NET SDK 8.0.121
+      if: contains(matrix.runs-on, 'macOS') || contains(matrix.runs-on, 'ubuntu')
+      uses: actions/setup-dotnet@v3
+      with:
+        dotnet-version: '8.0.121'
+
+    - name: Set up .NET SDK 8.0.121 (Windows)
+      if: matrix.runs-on == 'windows-latest'
+      uses: actions/setup-dotnet@v3
+      with:
+        dotnet-version: '8.0.121'
+
     - if: contains(matrix.runs-on, 'macOS') || contains(matrix.runs-on, 'ubuntu')
       run: ./build.sh
+
     - if: matrix.runs-on == 'windows-latest' && github.ref != 'refs/heads/main' && !contains(github.ref, 'refs/tags/')
       run: ./build.ps1
+
     - if: (matrix.runs-on == 'windows-latest') && (github.ref == 'refs/heads/main' || contains(github.ref, 'refs/tags/'))
       env:
         SignClientSecret: ${{ secrets.SIGNCLIENT }}

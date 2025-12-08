@@ -2,7 +2,12 @@
 
 **OpenIdentityServer**
 
-[![CLA Assistant](https://img.shields.io/badge/CLA%20Assistant-green?style=for-the-badge)](https://cla-assistant.io/2pNza/OpenIdentityServer)  [![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg?style=for-the-badge)](https://www.gnu.org/licenses/agpl-3.0.html)  [![CI Status](https://img.shields.io/github/actions/workflow/status/2pNza/OpenIdentityServer/ci.yml?style=for-the-badge&label=CI)](https://github.com/2pNza/OpenIdentityServer/actions/workflows/ci.yml)
+![Contributors](https://img.shields.io/github/contributors/2pNza/OpenIdentityServer?style=for-the-badge)
+[![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg?style=for-the-badge)](https://www.gnu.org/licenses/agpl-3.0.html)
+[![CLA Assistant](https://img.shields.io/badge/CLA%20Assistant-green?style=for-the-badge)](https://cla-assistant.io/2pNza/OpenIdentityServer)
+![Version](https://img.shields.io/github/v/tag/2pNza/OpenIdentityServer?style=for-the-badge)
+[![CI Status](https://img.shields.io/github/actions/workflow/status/2pNza/OpenIdentityServer/ci.yml?style=for-the-badge&label=CI)](https://github.com/2pNza/OpenIdentityServer/actions/workflows/ci.yml)
+
 
 
 <img width="155" height="51" alt="image" src="https://github.com/user-attachments/assets/683e5ff5-2721-4e0a-aa46-32a1ff060986" />

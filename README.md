@@ -2,7 +2,7 @@
 
 **OpenIdentityServer**
 
-[![CLA assistant](https://cla-assistant.io/readme/badge/2pNza/OpenIdentityServer)](https://cla-assistant.io/2pNza/OpenIdentityServer) [![AGPL-3.0 License](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0.html)
+[![CLA assistant](https://cla-assistant.io/readme/badge/2pNza/OpenIdentityServer)](https://cla-assistant.io/2pNza/OpenIdentityServer) [![AGPL-3.0 License](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0.html) [![CI](https://github.com/2pNza/OpenIdentityServer/actions/workflows/ci.yml/badge.svg)](https://github.com/2pNza/OpenIdentityServer/actions/workflows/ci.yml)
 
 
 <img width="155" height="51" alt="image" src="https://github.com/user-attachments/assets/683e5ff5-2721-4e0a-aa46-32a1ff060986" />

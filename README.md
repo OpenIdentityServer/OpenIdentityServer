@@ -17,11 +17,6 @@ Please use the [issue tracker](https://github.com/2pNza/OpenIdentityServer/issue
 
 ---
 
-### WARNING! 
-This version is experimental! Wait for version 1.0.0. If you use it, you do so at your own risk.
-
----
-
 ### NuGet Packages
 
 | Package Name                                      | Badge                                                                                              |
@@ -34,10 +29,10 @@ This version is experimental! Wait for version 1.0.0. If you use it, you do so a
 
 ---
 
-The project during the renaming process
+The project is undergoing a renaming process and will be renamed to OpenIdentityServer
 
 ---
-## Old README
+# OLD README
 
 # Important notice
 This is a fork of IdentityServer4 that is meant to keep existing software that depends on IdentityServer4 updated with the latest .NET framework version.

@@ -4,14 +4,14 @@
     <PackageId>2pNza.OpenIdentityServer.EntityFramework</PackageId>
     <TargetFrameworks>net8.0</TargetFrameworks>
 
-    <Description>EntityFramework persistence layer for IdentityServer4</Description>
-    <Authors>Brock Allen;Dominick Baier;Scott Brady;Lacuna Software</Authors>
-    <AssemblyName>IdentityServer4.EntityFramework</AssemblyName>
+    <Description>EntityFramework persistence layer for OpenIdentityServer</Description>
+    <Authors>Brock Allen;Dominick Baier;Scott Brady;Lacuna Software;2pNza</Authors>
+    <AssemblyName>OpenIdentityServer.EntityFramework</AssemblyName>
     <PackageTags>OAuth2;OAuth 2.0;OpenID Connect;Security;Identity;IdentityServer;EntityFramework</PackageTags>
     <PackageIcon>icon.jpg</PackageIcon>
-    <PackageProjectUrl>https://github.com/IdentityServer/IdentityServer4</PackageProjectUrl>
-    <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
-    <PackageReleaseNotes>https://github.com/IdentityServer/IdentityServer4/releases</PackageReleaseNotes>
+    <PackageProjectUrl>https://github.com/2pNza/OpenIdentityServer</PackageProjectUrl>
+    <PackageLicenseExpression>LGPL-3.0-only</PackageLicenseExpression>
+    <PackageReleaseNotes>https://github.com/2pNza/OpenIdentityServer/releases</PackageReleaseNotes>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     
     <PublishRepositoryUrl>true</PublishRepositoryUrl>
@@ -33,8 +33,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Lacuna.IdentityServer4" />
-    <PackageReference Include="Lacuna.IdentityServer4.EntityFramework.Storage" />
+    <PackageReference Include="2pNza.OpenIdentityServer" />
+    <PackageReference Include="2pNza.OpenIdentityServer.EntityFramework.Storage" />
     
     <PackageReference Include="Microsoft.SourceLink.GitHub" PrivateAssets="All" />
   </ItemGroup>

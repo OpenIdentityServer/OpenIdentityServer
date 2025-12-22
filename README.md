@@ -3,14 +3,17 @@
 **OpenIdentityServer**
 
 ![Contributors](https://img.shields.io/github/contributors/2pNza/OpenIdentityServer?style=for-the-badge)
-[![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg?style=for-the-badge)](https://www.gnu.org/licenses/agpl-3.0.html)
+[![License: LGPL v3](https://img.shields.io/badge/License-LGPL%20v3-blue.svg?style=for-the-badge)](https://www.gnu.org/licenses/lgpl-3.0.html)
 [![CLA Assistant](https://img.shields.io/badge/CLA%20Assistant-green?style=for-the-badge)](https://cla-assistant.io/2pNza/OpenIdentityServer)
 ![Version](https://img.shields.io/github/v/tag/2pNza/OpenIdentityServer?style=for-the-badge)
 [![CI Status](https://img.shields.io/github/actions/workflow/status/2pNza/OpenIdentityServer/ci.yml?style=for-the-badge&label=CI)](https://github.com/2pNza/OpenIdentityServer/actions/workflows/ci.yml)
 
 
 
-<img width="155" height="51" alt="image" src="https://github.com/user-attachments/assets/683e5ff5-2721-4e0a-aa46-32a1ff060986" />
+<img width="155" height="51" alt="image" src="https://www.gnu.org/graphics/lgplv3-147x51.png" />
+
+## Bug reports and feature requests
+Please use the [issue tracker](https://github.com/2pNza/OpenIdentityServer/issues) for that.
 
 ---
 
@@ -69,9 +72,6 @@ Active development happens on the main branch. This always contains the latest v
 
 ## Documentation
 For project documentation, please visit [readthedocs](https://identityserver4.readthedocs.io).
-
-## Bug reports and feature requests
-Please use the [issue tracker](https://github.com/LacunaSoftware/IdentityServer4/issues) for that.
 
 ## Help wanted
 If you would like to contribute to this project feel free to use the issue tracker and/or submit Pull Requests.

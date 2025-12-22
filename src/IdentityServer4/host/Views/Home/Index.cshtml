@@ -2,7 +2,8 @@
 @using System.Reflection
 
 @{
-    var version = typeof(IdentityServer4.Hosting.IdentityServerMiddleware).Assembly.GetCustomAttribute<AssemblyInformationalVersionAttribute>()?.InformationalVersion.Split('+').First();
+    var version =
+    typeof(IdentityServer4.Hosting.IdentityServerMiddleware).Assembly.GetCustomAttribute<AssemblyInformationalVersionAttribute>()?.InformationalVersion.Split('+').First();
 }
 
 <div class="welcome-page">
@@ -26,8 +27,8 @@
         </li>
         <li>
             Here are links to the
-            <a href="https://github.com/identityserver/IdentityServer4">source code repository</a>,
-            and <a href="https://github.com/IdentityServer/IdentityServer4/tree/main/samples">ready to use samples</a>.
+            <a href="https://github.com/2pNza/OpenIdentityServer">source code repository</a>,
+            and <a href="https://github.com/2pNza/OpenIdentityServer/tree/main/samples">ready to use samples</a>.
         </li>
     </ul>
 </div>

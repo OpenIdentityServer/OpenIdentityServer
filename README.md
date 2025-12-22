@@ -8,12 +8,7 @@
 ![Version](https://img.shields.io/github/v/tag/2pNza/OpenIdentityServer?style=for-the-badge)
 [![CI Status](https://img.shields.io/github/actions/workflow/status/2pNza/OpenIdentityServer/ci.yml?style=for-the-badge&label=CI)](https://github.com/2pNza/OpenIdentityServer/actions/workflows/ci.yml)
 
-
-
 <img width="155" height="51" alt="image" src="https://www.gnu.org/graphics/lgplv3-147x51.png" />
-
-## Bug reports and feature requests
-Please use the [issue tracker](https://github.com/2pNza/OpenIdentityServer/issues) for that.
 
 ---
 
@@ -30,6 +25,35 @@ Please use the [issue tracker](https://github.com/2pNza/OpenIdentityServer/issue
 ---
 
 The project is undergoing a renaming process and will be renamed to OpenIdentityServer
+
+---
+## Branch structure
+Active development happens on the main branch. This always contains the latest version. Each (pre-) release is tagged with the corresponding version.
+
+## How to build
+
+* [Install](https://www.microsoft.com/net/download/core#/current) the latest .NET 8 SDK
+* Install Git
+* Clone this repo
+* Run `build.ps1` or `build.sh` in the root of the cloned repo
+
+## Bug reports and feature requests
+Please use the [issue tracker](https://github.com/2pNza/OpenIdentityServer/issues) for that.
+
+## Help wanted
+If you would like to contribute to this project feel free to use the issue tracker and/or submit Pull Requests.
+
+## Acknowledgements
+OpenIdentityServer is built using the following great open source projects and free services:
+
+* [ASP.NET Core](https://github.com/dotnet/aspnetcore)
+* [Bullseye](https://github.com/adamralph/bullseye)
+* [SimpleExec](https://github.com/adamralph/simple-exec)
+* [MinVer](https://github.com/adamralph/minver)
+* [Json.Net](http://www.newtonsoft.com/json)
+* [XUnit](https://xunit.github.io/)
+* [Fluent Assertions](http://www.fluentassertions.com/)
+* [GitReleaseManager](https://github.com/GitTools/GitReleaseManager)
 
 ---
 # OLD README
@@ -55,30 +79,10 @@ It is part of the [.NET Foundation](https://www.dotnetfoundation.org/), and oper
 
 For project documentation, please visit [readthedocs](https://identityserver4.readthedocs.io).
 
-## Branch structure
-Active development happens on the main branch. This always contains the latest version. Each (pre-) release is tagged with the corresponding version.
-
-## How to build
-
-* [Install](https://www.microsoft.com/net/download/core#/current) the latest .NET 6 SDK
-* Install Git
-* Clone this repo
-* Run `build.ps1` or `build.sh` in the root of the cloned repo
 
 ## Documentation
 For project documentation, please visit [readthedocs](https://identityserver4.readthedocs.io).
 
-## Help wanted
-If you would like to contribute to this project feel free to use the issue tracker and/or submit Pull Requests.
 
-## Acknowledgements
-IdentityServer4 is built using the following great open source projects and free services:
 
-* [ASP.NET Core](https://github.com/dotnet/aspnetcore)
-* [Bullseye](https://github.com/adamralph/bullseye)
-* [SimpleExec](https://github.com/adamralph/simple-exec)
-* [MinVer](https://github.com/adamralph/minver)
-* [Json.Net](http://www.newtonsoft.com/json)
-* [XUnit](https://xunit.github.io/)
-* [Fluent Assertions](http://www.fluentassertions.com/)
-* [GitReleaseManager](https://github.com/GitTools/GitReleaseManager)
+

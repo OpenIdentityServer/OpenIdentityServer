@@ -13,15 +13,15 @@ Free support is community-based and uses public forums
 There's an ever growing community of people using IdentityServer that monitor questions on StackOverflow. 
 If time permits, we also try to answer as many questions as possible
 
-You can subscribe to all IdentityServer4 related questions using this feed:
+You can subscribe to all OpenIdentityServer related questions using this feed:
 
-https://stackoverflow.com/questions/tagged/?tagnames=identityserver4&sort=newest
+https://stackoverflow.com/questions/tagged/?tagnames=openidentityserver&sort=newest
 
-Please use the ``IdentityServer4`` tag when asking new questions
+Please use the ``OpenIdentityServer`` tag when asking new questions
 
 **Gitter**
 
-You can chat with other IdentityServer4 users in our Gitter chat room:
+You can chat with other OpenIdentityServer users in our Gitter chat room:
 
 https://gitter.im/2pNza/OpenIdentityServer
 

@@ -257,7 +257,7 @@ The IdentityServer will clear its cookies and then give the user a link to retur
 
 Getting claims from the UserInfo endpoint
 ^^^^^^^^^^^^^^^
-You might have noticed that even though we've configured the client to be allowed to retrieve the ``profile`` identity scope, the claims associated with that scope (such as ``name``, ``family_name``, ``website`` etc.) don't appear in the returned token. We need to tell the client to pull remaining claims from the `UserInfo <https://identityserver4.readthedocs.io/en/latest/endpoints/userinfo.html>`_ endpoint by specifying scopes that the client application needs to access and setting the ``GetClaimsFromUserInfoEndpoint`` option. In the following example we're requesting the ``profile`` scope, but it could be any scope (or scopes) that the client is authorized to access::
+You might have noticed that even though we've configured the client to be allowed to retrieve the ``profile`` identity scope, the claims associated with that scope (such as ``name``, ``family_name``, ``website`` etc.) don't appear in the returned token. We need to tell the client to pull remaining claims from the `UserInfo <https://openidentityserver.readthedocs.io/en/latest/endpoints/userinfo.html>`_ endpoint by specifying scopes that the client application needs to access and setting the ``GetClaimsFromUserInfoEndpoint`` option. In the following example we're requesting the ``profile`` scope, but it could be any scope (or scopes) that the client is authorized to access::
 
     .AddOpenIdConnect("oidc", options =>
     {
@@ -293,7 +293,7 @@ The process for defining an identity resource is as follows:
 
 It is also noteworthy, that the retrieval of claims for tokens is an extensibility point - ``IProfileService``.
 Since we are using ``AddTestUsers``, the ``TestUserProfileService`` is used by default.
-You can inspect the source code `here <https://github.com/2pNza/OpenIdentityServer/blob/main/src/IdentityServer4/src/Test/TestUserProfileService.cs>`_
+You can inspect the source code `here <https://github.com/2pNza/OpenIdentityServer/blob/main/src/OpenIdentityServer/src/Test/TestUserProfileService.cs>`_
 to see how it works.
 
 .. _refExternalAuthenticationQuickstart:
@@ -340,7 +340,7 @@ After authentication with the MVC client, you can see that the claims are now be
 Further experiments
 ^^^^^^^^^^^^^^^^^^^
 You can add an additional external provider.
-We have a `cloud-hosted demo <https://demo.identityserver.io>`_ version of IdentityServer4 which you can integrate using OpenID Connect.
+We have a `cloud-hosted demo <https://demo.identityserver.io>`_ version of OpenIdentityServer which you can integrate using OpenID Connect.
 
 Add the OpenId Connect handler to DI::
 

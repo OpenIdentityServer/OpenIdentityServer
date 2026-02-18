@@ -5,7 +5,7 @@ Protecting an API using Client Credentials
 The following Identity Server 4 quickstart provides step by step instructions for various common IdentityServer scenarios. 
 These start with the absolute basics and become more complex as they progress. We recommend that you follow them in sequence.  
 
-To see the full list, please go to `IdentityServer4 Quickstarts Overview <https://identityserver4.readthedocs.io/en/latest/quickstarts/0_overview.html>`_
+To see the full list, please go to `OpenIdentityServer Quickstarts Overview <https://openidentityserver.readthedocs.io/en/latest/quickstarts/0_overview.html>`_
 
 This first quickstart is the most basic scenario for protecting APIs using IdentityServer. 
 In this quickstart you define an API and a Client with which to access it. 
@@ -13,14 +13,14 @@ The client will request an access token from the Identity Server using its clien
 
 Source Code
 ^^^^^^^^^^^
-As with all of these quickstarts you can find the source code for it in the `IdentityServer4 <https://github.com/2pNza/OpenIdentityServer/blob/main/samples>`_ repository. The project for this quickstart is `Quickstart #1: Securing an API using Client Credentials <https://github.com/2pNza/OpenIdentityServer/tree/main/samples/Quickstarts/1_ClientCredentials>`_
+As with all of these quickstarts you can find the source code for it in the `OpenIdentityServer <https://github.com/2pNza/OpenIdentityServer/blob/main/samples>`_ repository. The project for this quickstart is `Quickstart #1: Securing an API using Client Credentials <https://github.com/2pNza/OpenIdentityServer/tree/main/samples/Quickstarts/1_ClientCredentials>`_
 
 Preparation
 ^^^^^^^^^^^
 The IdentityServer templates for the dotnet CLI are a good starting point for the quickstarts.
 To install the templates open a console window and type the following command::
 
-    dotnet new -i IdentityServer4.Templates
+    dotnet new -i OpenIdentityServer.Templates
 
 They will be used as a starting point for the various tutorials.
 

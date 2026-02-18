@@ -1,6 +1,7 @@
 <Project>
 
   <PropertyGroup>
+  <Version>1.0.2</Version>
     <FrameworkVersion>8.0.14</FrameworkVersion>
     <ExtensionsVersion>8.0.1</ExtensionsVersion>
     <EntityFrameworkVersion>8.0.14</EntityFrameworkVersion>
@@ -59,9 +60,9 @@
 
   </ItemGroup>
 
-  <Target Name="SetAssemblyVersion" AfterTargets="MinVer">
+  <!-- <Target Name="SetAssemblyVersion" AfterTargets="MinVer">
     <PropertyGroup>
       <AssemblyVersion>$(MinVerMajor).$(MinVerMinor).$(MinVerPatch).0</AssemblyVersion>
     </PropertyGroup>
-  </Target>
+  </Target> -->
 </Project>

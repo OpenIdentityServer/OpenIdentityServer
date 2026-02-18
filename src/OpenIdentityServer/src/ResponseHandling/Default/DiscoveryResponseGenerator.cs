@@ -20,7 +20,7 @@ namespace OpenIdentityServer.ResponseHandling
     /// <summary>
     /// Default implementation of the discovery endpoint response generator
     /// </summary>
-    /// <seealso cref="IdentityServer4.ResponseHandling.IDiscoveryResponseGenerator" />
+    /// <seealso cref="OpenIdentityServer.ResponseHandling.IDiscoveryResponseGenerator" />
     public class DiscoveryResponseGenerator : IDiscoveryResponseGenerator
     {
         /// <summary>

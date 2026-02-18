@@ -12,7 +12,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using FluentAssertions;
 using IdentityModel.Client;
-using IdentityServer4;
+using OpenIdentityServer;
 using OpenIdentityServer.Configuration;
 using OpenIdentityServer.Extensions;
 using OpenIdentityServer.Models;

@@ -1,5 +1,5 @@
 using IdentityModel;
-using IdentityServer4;
+using OpenIdentityServer;
 using OpenIdentityServer.Events;
 using OpenIdentityServer.Services;
 using OpenIdentityServer.Stores;

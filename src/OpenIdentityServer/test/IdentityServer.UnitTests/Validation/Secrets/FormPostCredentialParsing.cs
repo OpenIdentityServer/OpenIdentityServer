@@ -6,7 +6,7 @@ using System.IO;
 using System.Text;
 using FluentAssertions;
 using IdentityServer.UnitTests.Common;
-using IdentityServer4;
+using OpenIdentityServer;
 using OpenIdentityServer.Configuration;
 using OpenIdentityServer.Validation;
 using Microsoft.AspNetCore.Http;

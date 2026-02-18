@@ -16,7 +16,7 @@ namespace OpenIdentityServer.Endpoints.Results
     /// <summary>
     /// Result for a custom redirect
     /// </summary>
-    /// <seealso cref="IdentityServer4.Hosting.IEndpointResult" />
+    /// <seealso cref="OpenIdentityServer.Hosting.IEndpointResult" />
     public class CustomRedirectResult : IEndpointResult
     {
         private readonly ValidatedAuthorizeRequest _request;

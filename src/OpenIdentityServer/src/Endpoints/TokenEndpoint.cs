@@ -20,7 +20,7 @@ namespace OpenIdentityServer.Endpoints
     /// <summary>
     /// The token endpoint
     /// </summary>
-    /// <seealso cref="IdentityServer4.Hosting.IEndpointHandler" />
+    /// <seealso cref="OpenIdentityServer.Hosting.IEndpointHandler" />
     internal class TokenEndpoint : IEndpointHandler
     {
         private readonly IClientSecretValidator _clientValidator;

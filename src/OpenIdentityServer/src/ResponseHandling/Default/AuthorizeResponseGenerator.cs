@@ -20,7 +20,7 @@ namespace OpenIdentityServer.ResponseHandling
     /// <summary>
     /// The authorize response generator
     /// </summary>
-    /// <seealso cref="IdentityServer4.ResponseHandling.IAuthorizeResponseGenerator" />
+    /// <seealso cref="OpenIdentityServer.ResponseHandling.IAuthorizeResponseGenerator" />
     public class AuthorizeResponseGenerator : IAuthorizeResponseGenerator
     {
         /// <summary>

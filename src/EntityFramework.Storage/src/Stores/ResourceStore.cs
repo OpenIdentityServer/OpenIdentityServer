@@ -18,7 +18,7 @@ namespace OpenIdentityServer.EntityFramework.Stores
     /// <summary>
     /// Implementation of IResourceStore thats uses EF.
     /// </summary>
-    /// <seealso cref="IdentityServer4.Stores.IResourceStore" />
+    /// <seealso cref="OpenIdentityServer.Stores.IResourceStore" />
     public class ResourceStore : IResourceStore
     {
         /// <summary>

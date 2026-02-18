@@ -10,7 +10,7 @@ namespace OpenIdentityServer.Stores
     /// <summary>
     /// Default signing credentials store
     /// </summary>
-    /// <seealso cref="IdentityServer4.Stores.ISigningCredentialStore" />
+    /// <seealso cref="OpenIdentityServer.Stores.ISigningCredentialStore" />
     public class InMemorySigningCredentialsStore : ISigningCredentialStore
     {
         private readonly SigningCredentials _credential;

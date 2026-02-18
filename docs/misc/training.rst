@@ -2,7 +2,7 @@ Training
 ========
 Here are some online, remote and classroom training options to learn more about ASP.NET Core identity & OpenIdentityServer.
 
-Identity & Access Control for modern Applications (using ASP.NET Core 2 and IdentityServer4)
+Identity & Access Control for modern Applications (using ASP.NET Core 2 and OpenIdentityServer)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 That's our own three day flagship course (including extensive hands-on labs) that we deliver as part of conferences, on-sites and remote.
 

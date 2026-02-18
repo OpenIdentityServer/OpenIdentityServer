@@ -7,7 +7,7 @@ namespace OpenIdentityServer.Events
     /// <summary>
     /// Event for successful user logout
     /// </summary>
-    /// <seealso cref="IdentityServer4.Events.Event" />
+    /// <seealso cref="OpenIdentityServer.Events.Event" />
     public class UserLogoutSuccessEvent : Event
     {
         /// <summary>

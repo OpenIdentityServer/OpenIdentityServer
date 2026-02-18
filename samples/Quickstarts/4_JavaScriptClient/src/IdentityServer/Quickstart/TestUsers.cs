@@ -7,7 +7,7 @@ using OpenIdentityServer.Test;
 using System.Collections.Generic;
 using System.Security.Claims;
 using System.Text.Json;
-using IdentityServer4;
+using OpenIdentityServer;
 
 namespace IdentityServerHost.Quickstart.UI
 {

@@ -12,7 +12,7 @@ namespace OpenIdentityServer.ResponseHandling
     /// <summary>
     /// Default revocation response generator
     /// </summary>
-    /// <seealso cref="IdentityServer4.ResponseHandling.ITokenRevocationResponseGenerator" />
+    /// <seealso cref="OpenIdentityServer.ResponseHandling.ITokenRevocationResponseGenerator" />
     public class TokenRevocationResponseGenerator : ITokenRevocationResponseGenerator
     {
         /// <summary>

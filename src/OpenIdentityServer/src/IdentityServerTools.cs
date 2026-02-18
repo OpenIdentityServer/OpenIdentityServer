@@ -14,7 +14,7 @@ using System;
 using Microsoft.AspNetCore.Authentication;
 using OpenIdentityServer.Infrastructure.Clock;
 
-namespace IdentityServer4
+namespace OpenIdentityServer
 {
     /// <summary>
     /// Class for useful helpers for interacting with IdentityServer

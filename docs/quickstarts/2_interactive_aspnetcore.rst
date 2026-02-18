@@ -293,7 +293,7 @@ The process for defining an identity resource is as follows:
 
 It is also noteworthy, that the retrieval of claims for tokens is an extensibility point - ``IProfileService``.
 Since we are using ``AddTestUsers``, the ``TestUserProfileService`` is used by default.
-You can inspect the source code `here <https://github.com/2pNza/OpenIdentityServer/blob/main/src/IdentityServer4/src/Test/TestUserProfileService.cs>`_
+You can inspect the source code `here <https://github.com/2pNza/OpenIdentityServer/blob/main/src/OpenIdentityServer/src/Test/TestUserProfileService.cs>`_
 to see how it works.
 
 .. _refExternalAuthenticationQuickstart:
@@ -340,7 +340,7 @@ After authentication with the MVC client, you can see that the claims are now be
 Further experiments
 ^^^^^^^^^^^^^^^^^^^
 You can add an additional external provider.
-We have a `cloud-hosted demo <https://demo.identityserver.io>`_ version of IdentityServer4 which you can integrate using OpenID Connect.
+We have a `cloud-hosted demo <https://demo.identityserver.io>`_ version of OpenIdentityServer which you can integrate using OpenID Connect.
 
 Add the OpenId Connect handler to DI::
 

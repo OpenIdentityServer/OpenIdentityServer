@@ -16,7 +16,7 @@ namespace OpenIdentityServer.Services
     /// <summary>
     /// The default key material service
     /// </summary>
-    /// <seealso cref="IdentityServer4.Services.IKeyMaterialService" />
+    /// <seealso cref="OpenIdentityServer.Services.IKeyMaterialService" />
     public class DefaultKeyMaterialService : IKeyMaterialService
     {
         private readonly IEnumerable<ISigningCredentialStore> _signingCredentialStores;

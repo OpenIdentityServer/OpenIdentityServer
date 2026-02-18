@@ -9,7 +9,7 @@ namespace OpenIdentityServer.Events
     /// <summary>
     /// Event for granted consent.
     /// </summary>
-    /// <seealso cref="IdentityServer4.Events.Event" />
+    /// <seealso cref="OpenIdentityServer.Events.Event" />
     public class ConsentGrantedEvent : Event
     {
         /// <summary>

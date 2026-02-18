@@ -1,4 +1,4 @@
-# IdentityServer4 documentation
+# OpenIdentityServer documentation
 
 The folder contains the documentation for identityserver4.
 

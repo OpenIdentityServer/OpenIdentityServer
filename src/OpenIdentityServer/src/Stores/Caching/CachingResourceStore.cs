@@ -17,7 +17,7 @@ namespace OpenIdentityServer.Stores
     /// Caching decorator for IResourceStore
     /// </summary>
     /// <typeparam name="T"></typeparam>
-    /// <seealso cref="IdentityServer4.Stores.IResourceStore" />
+    /// <seealso cref="OpenIdentityServer.Stores.IResourceStore" />
     public class CachingResourceStore<T> : IResourceStore
         where T : IResourceStore
     {

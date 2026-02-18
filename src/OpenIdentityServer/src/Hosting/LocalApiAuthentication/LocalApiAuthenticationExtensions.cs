@@ -2,7 +2,7 @@
 // Licensed under the Apache License, Version 2.0. See LICENSE in the project root for license information.
 
 
-using IdentityServer4;
+using OpenIdentityServer;
 using OpenIdentityServer.Hosting.LocalApiAuthentication;
 using Microsoft.AspNetCore.Authentication;
 using System;

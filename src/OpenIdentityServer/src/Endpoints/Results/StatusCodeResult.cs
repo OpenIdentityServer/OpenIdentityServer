@@ -12,7 +12,7 @@ namespace OpenIdentityServer.Endpoints.Results
     /// <summary>
     /// Result for a raw HTTP status code
     /// </summary>
-    /// <seealso cref="IdentityServer4.Hosting.IEndpointResult" />
+    /// <seealso cref="OpenIdentityServer.Hosting.IEndpointResult" />
     public class StatusCodeResult : IEndpointResult
     {
         /// <summary>

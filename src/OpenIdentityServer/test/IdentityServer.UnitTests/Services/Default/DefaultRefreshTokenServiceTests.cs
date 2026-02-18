@@ -1,6 +1,6 @@
 using FluentAssertions;
 using IdentityServer.UnitTests.Common;
-using IdentityServer4;
+using OpenIdentityServer;
 using OpenIdentityServer.Models;
 using OpenIdentityServer.Services;
 using OpenIdentityServer.Stores;

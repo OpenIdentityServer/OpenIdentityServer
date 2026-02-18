@@ -10,7 +10,7 @@ namespace OpenIdentityServer.Services
     /// <summary>
     /// Default handle generation service
     /// </summary>
-    /// <seealso cref="IdentityServer4.Services.IHandleGenerationService" />
+    /// <seealso cref="OpenIdentityServer.Services.IHandleGenerationService" />
     public class DefaultHandleGenerationService : IHandleGenerationService
     {
         /// <summary>

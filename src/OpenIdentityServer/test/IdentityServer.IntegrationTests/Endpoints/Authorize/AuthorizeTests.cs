@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 using FluentAssertions;
 using IdentityModel;
 using IdentityServer.IntegrationTests.Common;
-using IdentityServer4;
+using OpenIdentityServer;
 using OpenIdentityServer.Models;
 using OpenIdentityServer.Stores;
 using OpenIdentityServer.Stores.Default;

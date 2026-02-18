@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 using FluentAssertions;
 using IdentityModel;
 using IdentityServer.UnitTests.Common;
-using IdentityServer4;
+using OpenIdentityServer;
 using OpenIdentityServer.Configuration;
 using OpenIdentityServer.Models;
 using OpenIdentityServer.Validation;
@@ -28,7 +28,7 @@ namespace IdentityServer.UnitTests.ResponseHandling.AuthorizeInteractionResponse
         {
             _subject = new OpenIdentityServer.ResponseHandling.AuthorizeInteractionResponseGenerator(
                 _clock,
-                TestLogger.Create<IdentityServer4.ResponseHandling.AuthorizeInteractionResponseGenerator>(),
+                TestLogger.Create<OpenIdentityServer.ResponseHandling.AuthorizeInteractionResponseGenerator>(),
                 _mockConsentService,
                 new MockProfileService());
         }

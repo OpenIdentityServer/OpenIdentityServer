@@ -8,7 +8,7 @@ using IdentityServerHost.Data;
 using IdentityServerHost.Configuration;
 using OpenIdentityServer.Models;
 using Microsoft.Extensions.Hosting;
-using IdentityServer4;
+using OpenIdentityServer;
 
 namespace IdentityServerHost
 {

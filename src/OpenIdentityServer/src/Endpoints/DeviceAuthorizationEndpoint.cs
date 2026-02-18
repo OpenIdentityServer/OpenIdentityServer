@@ -20,7 +20,7 @@ namespace OpenIdentityServer.Endpoints
     /// <summary>
     /// The device authorization endpoint
     /// </summary>
-    /// <seealso cref="IdentityServer4.Hosting.IEndpointHandler" />
+    /// <seealso cref="OpenIdentityServer.Hosting.IEndpointHandler" />
     internal class DeviceAuthorizationEndpoint : IEndpointHandler
     {
         private readonly IClientSecretValidator _clientValidator;

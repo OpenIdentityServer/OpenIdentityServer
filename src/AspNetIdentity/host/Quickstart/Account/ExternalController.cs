@@ -4,7 +4,7 @@ using System.Linq;
 using System.Security.Claims;
 using System.Threading.Tasks;
 using IdentityModel;
-using IdentityServer4;
+using OpenIdentityServer;
 using OpenIdentityServer.Events;
 using OpenIdentityServer.Models;
 using OpenIdentityServer.Services;

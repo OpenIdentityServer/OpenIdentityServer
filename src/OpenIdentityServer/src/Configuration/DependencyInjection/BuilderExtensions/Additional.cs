@@ -9,7 +9,7 @@ using OpenIdentityServer.Validation;
 using Microsoft.Extensions.DependencyInjection.Extensions;
 using System;
 using System.Net.Http;
-using IdentityServer4;
+using OpenIdentityServer;
 using OpenIdentityServer.Configuration;
 using Microsoft.Extensions.Logging;
 using OpenIdentityServer.Infrastructure.Clock;

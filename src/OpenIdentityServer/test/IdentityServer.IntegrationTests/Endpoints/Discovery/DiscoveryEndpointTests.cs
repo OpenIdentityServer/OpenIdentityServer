@@ -5,7 +5,7 @@
 using FluentAssertions;
 using IdentityModel.Client;
 using IdentityServer.IntegrationTests.Common;
-using IdentityServer4;
+using OpenIdentityServer;
 using OpenIdentityServer.Configuration;
 using OpenIdentityServer.Models;
 using Microsoft.Extensions.DependencyInjection;

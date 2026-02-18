@@ -12,7 +12,7 @@ namespace OpenIdentityServer.Services
     /// IMemoryCache-based implementation of the cache
     /// </summary>
     /// <typeparam name="T"></typeparam>
-    /// <seealso cref="IdentityServer4.Services.ICache{T}" />
+    /// <seealso cref="OpenIdentityServer.Services.ICache{T}" />
     public class DefaultCache<T> : ICache<T>
         where T : class
     {

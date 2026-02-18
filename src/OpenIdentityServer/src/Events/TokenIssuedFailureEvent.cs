@@ -11,7 +11,7 @@ namespace OpenIdentityServer.Events
     /// <summary>
     /// Event for failed token issuance
     /// </summary>
-    /// <seealso cref="IdentityServer4.Events.Event" />
+    /// <seealso cref="OpenIdentityServer.Events.Event" />
     public class TokenIssuedFailureEvent : Event
     {
         /// <summary>

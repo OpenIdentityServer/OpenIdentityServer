@@ -14,7 +14,7 @@ namespace OpenIdentityServer.Services
     /// <summary>
     /// The default device flow throttling service using IDistributedCache.
     /// </summary>
-    /// <seealso cref="IdentityServer4.Services.IDeviceFlowThrottlingService" />
+    /// <seealso cref="OpenIdentityServer.Services.IDeviceFlowThrottlingService" />
     public class DistributedDeviceFlowThrottlingService : IDeviceFlowThrottlingService
     {
         private readonly IDistributedCache _cache;

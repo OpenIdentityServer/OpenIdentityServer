@@ -18,14 +18,14 @@ namespace IdentityServer.UnitTests.Hosting
     public class EndpointRouterTests
     {
         private Dictionary<string, OpenIdentityServer.Hosting.Endpoint> _pathMap;
-        private List<IdentityServer4.Hosting.Endpoint> _endpoints;
+        private List<OpenIdentityServer.Hosting.Endpoint> _endpoints;
         private IdentityServerOptions _options;
         private EndpointRouter _subject;
 
         public EndpointRouterTests()
         {
             _pathMap = new Dictionary<string, OpenIdentityServer.Hosting.Endpoint>();
-            _endpoints = new List<IdentityServer4.Hosting.Endpoint>();
+            _endpoints = new List<OpenIdentityServer.Hosting.Endpoint>();
             _options = new IdentityServerOptions();
             _subject = new EndpointRouter(_endpoints, _options, TestLogger.Create<EndpointRouter>());
         }

@@ -5,7 +5,7 @@
 using System.Collections.Generic;
 using System.Security.Claims;
 using IdentityModel;
-using IdentityServer4;
+using OpenIdentityServer;
 using OpenIdentityServer.Test;
 
 namespace IdentityServer.IntegrationTests.Clients.Setup

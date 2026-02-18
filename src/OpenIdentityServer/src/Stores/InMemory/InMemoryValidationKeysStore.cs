@@ -12,7 +12,7 @@ namespace OpenIdentityServer.Stores
     /// <summary>
     /// The default validation key store
     /// </summary>
-    /// <seealso cref="IdentityServer4.Stores.IValidationKeysStore" />
+    /// <seealso cref="OpenIdentityServer.Stores.IValidationKeysStore" />
     public class InMemoryValidationKeysStore : IValidationKeysStore
     {
         private readonly IEnumerable<SecurityKeyInfo> _keys;

@@ -12,7 +12,7 @@ namespace OpenIdentityServer.Validation
     /// <summary>
     /// Implementation of strict redirect URI validator that allows a random port if 127.0.0.1 is used.
     /// </summary>
-    /// <seealso cref="IdentityServer4.Validation.StrictRedirectUriValidator" />
+    /// <seealso cref="OpenIdentityServer.Validation.StrictRedirectUriValidator" />
     public class StrictRedirectUriValidatorAppAuth : StrictRedirectUriValidator
     {
         private readonly ILogger _logger;

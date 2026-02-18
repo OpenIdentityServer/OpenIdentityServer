@@ -16,7 +16,7 @@ namespace OpenIdentityServer.EntityFramework.DbContexts
     /// DbContext for the IdentityServer operational data.
     /// </summary>
     /// <seealso cref="Microsoft.EntityFrameworkCore.DbContext" />
-    /// <seealso cref="IdentityServer4.EntityFramework.Interfaces.IPersistedGrantDbContext" />
+    /// <seealso cref="OpenIdentityServer.EntityFramework.Interfaces.IPersistedGrantDbContext" />
     public class PersistedGrantDbContext : PersistedGrantDbContext<PersistedGrantDbContext>
     {
         /// <summary>
@@ -46,7 +46,7 @@ namespace OpenIdentityServer.EntityFramework.DbContexts
     /// DbContext for the IdentityServer operational data.
     /// </summary>
     /// <seealso cref="Microsoft.EntityFrameworkCore.DbContext" />
-    /// <seealso cref="IdentityServer4.EntityFramework.Interfaces.IPersistedGrantDbContext" />
+    /// <seealso cref="OpenIdentityServer.EntityFramework.Interfaces.IPersistedGrantDbContext" />
     public class PersistedGrantDbContext<TContext> : DbContext, IPersistedGrantDbContext
         where TContext : DbContext, IPersistedGrantDbContext
     {

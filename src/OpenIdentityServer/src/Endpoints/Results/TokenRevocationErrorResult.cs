@@ -13,7 +13,7 @@ namespace OpenIdentityServer.Endpoints.Results
     /// <summary>
     /// Result for revocation error
     /// </summary>
-    /// <seealso cref="IdentityServer4.Hosting.IEndpointResult" />
+    /// <seealso cref="OpenIdentityServer.Hosting.IEndpointResult" />
     public class TokenRevocationErrorResult : IEndpointResult
     {
         /// <summary>

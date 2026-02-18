@@ -8,7 +8,7 @@ using System.Security.Claims;
 using System.Threading.Tasks;
 using FluentAssertions;
 using IdentityServer.UnitTests.Common;
-using IdentityServer4;
+using OpenIdentityServer;
 using OpenIdentityServer.Configuration;
 using OpenIdentityServer.Extensions;
 using OpenIdentityServer.Models;

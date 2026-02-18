@@ -11,7 +11,7 @@ using FluentAssertions;
 using IdentityModel;
 using IdentityModel.Client;
 using IdentityServer.IntegrationTests.Common;
-using IdentityServer4;
+using OpenIdentityServer;
 using OpenIdentityServer.Models;
 using OpenIdentityServer.Test;
 using Xunit;

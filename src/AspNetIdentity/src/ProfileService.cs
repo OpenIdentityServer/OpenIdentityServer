@@ -17,7 +17,7 @@ namespace OpenIdentityServer.AspNetIdentity
     /// IProfileService to integrate with ASP.NET Identity.
     /// </summary>
     /// <typeparam name="TUser">The type of the user.</typeparam>
-    /// <seealso cref="IdentityServer4.Services.IProfileService" />
+    /// <seealso cref="OpenIdentityServer.Services.IProfileService" />
     public class ProfileService<TUser> : IProfileService
         where TUser : class
     {

@@ -94,7 +94,7 @@ namespace IdentityServer.UnitTests.ResponseHandling.AuthorizeInteractionResponse
         {
             _subject = new OpenIdentityServer.ResponseHandling.AuthorizeInteractionResponseGenerator(
                 new StubClock(),
-                TestLogger.Create<IdentityServer4.ResponseHandling.AuthorizeInteractionResponseGenerator>(),
+                TestLogger.Create<OpenIdentityServer.ResponseHandling.AuthorizeInteractionResponseGenerator>(),
                 _mockConsent,
                 _fakeUserService);
         }

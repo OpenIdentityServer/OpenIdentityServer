@@ -10,7 +10,7 @@ using OpenIdentityServer.Extensions;
 using Microsoft.Extensions.DependencyInjection;
 using OpenIdentityServer.Configuration;
 
-namespace IdentityServer4
+namespace OpenIdentityServer
 {
     /// <summary>
     /// Extensions for IdentityServerTools

@@ -2,7 +2,7 @@
 // Licensed under the Apache License, Version 2.0. See LICENSE in the project root for license information.
 
 
-using IdentityServer4;
+using OpenIdentityServer;
 using OpenIdentityServer.EntityFramework.DbContexts;
 using OpenIdentityServer.EntityFramework.Mappers;
 using IdentityServerHost.Quickstart.UI;
@@ -24,7 +24,7 @@ namespace IdentityServer
             services.AddControllersWithViews();
 
             var migrationsAssembly = typeof(Startup).GetTypeInfo().Assembly.GetName().Name;
-            const string connectionString = @"Data Source=(LocalDb)\MSSQLLocalDB;database=IdentityServer4.Quickstart.EntityFramework-4.0.0;trusted_connection=yes;";
+            const string connectionString = @"Data Source=(LocalDb)\MSSQLLocalDB;database=OpenIdentityServer.Quickstart.EntityFramework-4.0.0;trusted_connection=yes;";
             
             var builder = services.AddIdentityServer()
                 .AddTestUsers(TestUsers.Users)

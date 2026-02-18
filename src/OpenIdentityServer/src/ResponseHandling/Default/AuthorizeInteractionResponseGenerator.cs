@@ -18,7 +18,7 @@ namespace OpenIdentityServer.ResponseHandling
     /// <summary>
     /// Default logic for determining if user must login or consent when making requests to the authorization endpoint.
     /// </summary>
-    /// <seealso cref="IdentityServer4.ResponseHandling.IAuthorizeInteractionResponseGenerator" />
+    /// <seealso cref="OpenIdentityServer.ResponseHandling.IAuthorizeInteractionResponseGenerator" />
     public class AuthorizeInteractionResponseGenerator : IAuthorizeInteractionResponseGenerator
     {
         /// <summary>

@@ -3,7 +3,7 @@
 
 
 using IdentityModel;
-using IdentityServer4;
+using OpenIdentityServer;
 using OpenIdentityServer.Events;
 using OpenIdentityServer.Extensions;
 using OpenIdentityServer.Models;

@@ -4,7 +4,7 @@
     <PackageId>2pNza.OpenIdentityServer.EntityFramework.Storage</PackageId>
     <TargetFrameworks>net8.0</TargetFrameworks>
     
-    <Description>EntityFramework persistence layer for IdentityServer4</Description>
+    <Description>EntityFramework persistence layer for OpenIdentityServer</Description>
     <Authors>Brock Allen;Dominick Baier;Scott Brady;Lacuna Software;2pNza</Authors>
 	<AssemblyName>OpenIdentityServer.EntityFramework.Storage</AssemblyName>
     <PackageTags>OAuth2;OAuth 2.0;OpenID Connect;Security;Identity;IdentityServer;EntityFramework</PackageTags>

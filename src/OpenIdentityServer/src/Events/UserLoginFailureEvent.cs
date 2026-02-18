@@ -9,11 +9,11 @@ namespace OpenIdentityServer.Events
     /// <summary>
     /// Event for failed user authentication
     /// </summary>
-    /// <seealso cref="IdentityServer4.Events.Event" />
+    /// <seealso cref="OpenIdentityServer.Events.Event" />
     public class UserLoginFailureEvent : Event
     {
         /// <summary>
-        /// Initializes a new instance of the <see cref="T:IdentityServer4.Events.UserLoginFailureEvent" /> class.
+        /// Initializes a new instance of the <see cref="T:OpenIdentityServer.Events.UserLoginFailureEvent" /> class.
         /// </summary>
         /// <param name="username">The username.</param>
         /// <param name="error">The error.</param>

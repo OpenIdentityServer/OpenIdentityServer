@@ -44,7 +44,7 @@ namespace OpenIdentityServer.Configuration
             {
                 options.Cookie.Name = IdentityServerConstants.ExternalCookieAuthenticationScheme;
                 options.Cookie.IsEssential = true;
-                // https://github.com/IdentityServer/IdentityServer4/issues/2595
+                // https://github.com/IdentityServer/OpenIdentityServer/issues/2595
                 // need to set None because iOS 12 safari considers the POST back to the client from the 
                 // IdP as not safe, so cookies issued from response (with lax) then should not be honored.
                 // so we need to make those cookies issued without same-site, thus the browser will
@@ -83,7 +83,7 @@ namespace OpenIdentityServer.Configuration
         {
             _idsrv = idsrv;
             _authOptions = authOptions;
-            _logger = loggerFactory.CreateLogger("IdentityServer4.Startup");
+            _logger = loggerFactory.CreateLogger("OpenIdentityServer.Startup");
         }
 
         public void PostConfigure(string name, CookieAuthenticationOptions options)

@@ -14,12 +14,12 @@ OpenIdentityServer is a free, open source [OpenID Connect](http://openid.net/con
 Founded and maintained by 2pNza, OpenIdentityServer incorporates all the protocol implementations and extensibility points needed to integrate token-based authentication, single-sign-on and API access control in your applications.
 It is licensed under **[GNU Lesser General Public License v3.0 (LGPL-3.0)](https://www.gnu.org/licenses/lgpl-3.0.html)**.
 
-This is a fork of IdentityServer4 that is meant to keep existing software that depends on IdentityServer4 updated with the latest .NET version.
+This is a fork of OpenIdentityServer that is meant to keep existing software that depends on OpenIdentityServer updated with the latest .NET version.
 
 ## Changes to OpenIdentityServer
 Our goal is to keep any core changes to OpenIdentityServer to a minimal so compatibility is maximized. Below you can find some of those changes in order to decide if they could affect your project:
 
-* Api Resource Scopes can be used as Api Scopes: when validating a authorize request, IdentityServer4 validates scopes based on existing Api Resources and Api Scopes. We have 
+* Api Resource Scopes can be used as Api Scopes: when validating a authorize request, OpenIdentityServer validates scopes based on existing Api Resources and Api Scopes. We have 
 updated this code to match requested scopes with Api Resource Scopes as well.
 
 ## NuGet Packages

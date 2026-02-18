@@ -7,7 +7,7 @@ namespace OpenIdentityServer.Events
     /// <summary>
     /// Event for successful API authentication
     /// </summary>
-    /// <seealso cref="IdentityServer4.Events.Event" />
+    /// <seealso cref="OpenIdentityServer.Events.Event" />
     public class ApiAuthenticationSuccessEvent : Event
     {
         /// <summary>

@@ -19,10 +19,10 @@
     <PackageReference Include="Serilog.AspNetCore" Version="6.0.1" />
 
     <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" />
-    <!--<PackageReference Include="IdentityServer4.EntityFramework" />-->
+    <!--<PackageReference Include="OpenIdentityServer.EntityFramework" />-->
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" PrivateAssets="All" />
     <PackageReference Include="System.Security.Principal.Windows" />
     
-    <ProjectReference Include="..\src\IdentityServer4.csproj" />
+    <ProjectReference Include="..\src\OpenIdentityServer.csproj" />
   </ItemGroup>
 </Project>

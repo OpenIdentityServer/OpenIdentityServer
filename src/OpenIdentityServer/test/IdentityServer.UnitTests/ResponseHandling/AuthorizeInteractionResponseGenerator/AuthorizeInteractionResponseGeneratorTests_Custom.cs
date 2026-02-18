@@ -5,7 +5,7 @@
 using System.Threading.Tasks;
 using FluentAssertions;
 using IdentityServer.UnitTests.Common;
-using IdentityServer4;
+using OpenIdentityServer;
 using OpenIdentityServer.Configuration;
 using OpenIdentityServer.Infrastructure.Clock;
 using OpenIdentityServer.Models;
@@ -20,7 +20,7 @@ namespace IdentityServer.UnitTests.ResponseHandling.AuthorizeInteractionResponse
 {
     public class CustomAuthorizeInteractionResponseGenerator : OpenIdentityServer.ResponseHandling.AuthorizeInteractionResponseGenerator
     {
-        public CustomAuthorizeInteractionResponseGenerator(IClock clock, ILogger<IdentityServer4.ResponseHandling.AuthorizeInteractionResponseGenerator> logger, IConsentService consent, IProfileService profile) : base(clock, logger, consent, profile)
+        public CustomAuthorizeInteractionResponseGenerator(IClock clock, ILogger<OpenIdentityServer.ResponseHandling.AuthorizeInteractionResponseGenerator> logger, IConsentService consent, IProfileService profile) : base(clock, logger, consent, profile)
         {
         }
 
@@ -57,7 +57,7 @@ namespace IdentityServer.UnitTests.ResponseHandling.AuthorizeInteractionResponse
         {
             _subject = new CustomAuthorizeInteractionResponseGenerator(
                 _clock,
-                TestLogger.Create<IdentityServer4.ResponseHandling.AuthorizeInteractionResponseGenerator>(),
+                TestLogger.Create<OpenIdentityServer.ResponseHandling.AuthorizeInteractionResponseGenerator>(),
                 _mockConsentService,
                 new MockProfileService());
         }

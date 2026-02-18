@@ -17,7 +17,7 @@ namespace OpenIdentityServer.ResponseHandling
     /// <summary>
     /// The device authorizaiton response generator
     /// </summary>
-    /// <seealso cref="IdentityServer4.ResponseHandling.IDeviceAuthorizationResponseGenerator" />
+    /// <seealso cref="OpenIdentityServer.ResponseHandling.IDeviceAuthorizationResponseGenerator" />
     public class DeviceAuthorizationResponseGenerator : IDeviceAuthorizationResponseGenerator
     {
         /// <summary>

@@ -15,7 +15,7 @@ namespace OpenIdentityServer.Validation
     /// <summary>
     /// Default userinfo request validator
     /// </summary>
-    /// <seealso cref="IdentityServer4.Validation.IUserInfoRequestValidator" />
+    /// <seealso cref="OpenIdentityServer.Validation.IUserInfoRequestValidator" />
     internal class UserInfoRequestValidator : IUserInfoRequestValidator
     {
         private readonly ITokenValidator _tokenValidator;

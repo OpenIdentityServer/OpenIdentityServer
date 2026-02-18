@@ -18,7 +18,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\IdentityServer4.EntityFramework.csproj" />
+    <ProjectReference Include="..\..\src\OpenIdentityServer.EntityFramework.csproj" />
   </ItemGroup>
   
   

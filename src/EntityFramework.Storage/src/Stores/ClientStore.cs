@@ -17,7 +17,7 @@ namespace OpenIdentityServer.EntityFramework.Stores
     /// <summary>
     /// Implementation of IClientStore thats uses EF.
     /// </summary>
-    /// <seealso cref="IdentityServer4.Stores.IClientStore" />
+    /// <seealso cref="OpenIdentityServer.Stores.IClientStore" />
     public class ClientStore : IClientStore
     {
         /// <summary>

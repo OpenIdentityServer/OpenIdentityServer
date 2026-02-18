@@ -13,7 +13,7 @@ namespace OpenIdentityServer.Stores
     /// <summary>
     /// Caching decorator for ICorsPolicyService
     /// </summary>
-    /// <seealso cref="IdentityServer4.Services.ICorsPolicyService" />
+    /// <seealso cref="OpenIdentityServer.Services.ICorsPolicyService" />
     public class CachingCorsPolicyService<T> : ICorsPolicyService
         where T : ICorsPolicyService
     {

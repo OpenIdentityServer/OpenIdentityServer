@@ -9,7 +9,7 @@ namespace OpenIdentityServer.Events
     /// <summary>
     /// Event for successful user authentication
     /// </summary>
-    /// <seealso cref="IdentityServer4.Events.Event" />
+    /// <seealso cref="OpenIdentityServer.Events.Event" />
     public class UserLoginSuccessEvent : Event
     {
         // todo: consolidate ctors in 3.0

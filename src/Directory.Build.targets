@@ -5,7 +5,7 @@
     <FrameworkVersion>8.0.14</FrameworkVersion>
     <ExtensionsVersion>8.0.1</ExtensionsVersion>
     <EntityFrameworkVersion>8.0.14</EntityFrameworkVersion>
-    <OpenIdentityServerVersion>1.0.1</OpenIdentityServerVersion>
+    <OpenIdentityServerVersion>1.0.2</OpenIdentityServerVersion>
   </PropertyGroup>
 
   <ItemGroup>

@@ -1,4 +1,4 @@
-using IdentityServer4.Infrastructure.Clock;
+using OpenIdentityServer.Infrastructure.Clock;
 using System;
 
 namespace IdentityServer.UnitTests.Common

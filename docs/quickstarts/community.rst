@@ -36,7 +36,7 @@ https://github.com/BenjaminAbt/Samples.AspNetCore-IdentityServer4
 
 Securing a Node API with tokens from IdentityServer4 using JWKS
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-* Shows how to secure a Node (Express) API using the JWKS endpoint and RS256 algorithm from IdentityServer4.
+* Shows how to secure a Node (Express) API using the JWKS endpoint and RS256 algorithm from OpenIdentityServer.
 * Provides an alternative to the NodeJsApi sample from IdentityServer samples using higher quality - production ready modules.
 
 https://github.com/lyphtec/idsvr4-node-jwks

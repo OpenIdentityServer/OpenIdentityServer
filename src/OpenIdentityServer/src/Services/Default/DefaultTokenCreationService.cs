@@ -3,10 +3,10 @@
 
 
 using IdentityModel;
-using IdentityServer4.Configuration;
-using IdentityServer4.Extensions;
-using IdentityServer4.Infrastructure.Clock;
-using IdentityServer4.Models;
+using OpenIdentityServer.Configuration;
+using OpenIdentityServer.Extensions;
+using OpenIdentityServer.Infrastructure.Clock;
+using OpenIdentityServer.Models;
 using Microsoft.Extensions.Logging;
 using Microsoft.IdentityModel.JsonWebTokens;
 using Newtonsoft.Json;
@@ -15,10 +15,10 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.IdentityModel.Tokens.Jwt;
 using System.Threading.Tasks;
-using static IdentityServer4.IdentityServerConstants;
-using Token = IdentityServer4.Models.Token;
+using static OpenIdentityServer.IdentityServerConstants;
+using Token = OpenIdentityServer.Models.Token;
 
-namespace IdentityServer4.Services
+namespace OpenIdentityServer.Services
 {
     /// <summary>
     /// Default token creation service

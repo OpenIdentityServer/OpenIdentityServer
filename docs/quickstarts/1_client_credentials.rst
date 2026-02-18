@@ -20,7 +20,7 @@ Preparation
 The IdentityServer templates for the dotnet CLI are a good starting point for the quickstarts.
 To install the templates open a console window and type the following command::
 
-    dotnet new -i IdentityServer4.Templates
+    dotnet new -i OpenIdentityServer.Templates
 
 They will be used as a starting point for the various tutorials.
 

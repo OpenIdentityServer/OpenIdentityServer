@@ -5,10 +5,10 @@ using System.Security.Claims;
 using FluentAssertions;
 using IdentityModel;
 using IdentityServer.UnitTests.Common;
-using IdentityServer4.Configuration;
-using IdentityServer4.Extensions;
-using IdentityServer4.Infrastructure.Clock;
-using IdentityServer4.Models;
+using OpenIdentityServer.Configuration;
+using OpenIdentityServer.Extensions;
+using OpenIdentityServer.Infrastructure.Clock;
+using OpenIdentityServer.Models;
 using Microsoft.AspNetCore.Authentication;
 using Xunit;
 

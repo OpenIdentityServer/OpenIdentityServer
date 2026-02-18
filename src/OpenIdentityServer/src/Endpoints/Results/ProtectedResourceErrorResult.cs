@@ -3,14 +3,14 @@
 
 
 using System.Threading.Tasks;
-using IdentityServer4.Extensions;
+using OpenIdentityServer.Extensions;
 using Microsoft.Extensions.Primitives;
-using IdentityServer4.Hosting;
+using OpenIdentityServer.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Net.Http.Headers;
 using IdentityModel;
 
-namespace IdentityServer4.Endpoints.Results
+namespace OpenIdentityServer.Endpoints.Results
 {
     internal class ProtectedResourceErrorResult : IEndpointResult
     {

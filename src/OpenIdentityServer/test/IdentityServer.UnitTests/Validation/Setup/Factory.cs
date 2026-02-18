@@ -7,14 +7,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Net.Http;
 using IdentityServer.UnitTests.Common;
-using IdentityServer4.Configuration;
-using IdentityServer4.Infrastructure.Clock;
-using IdentityServer4.Models;
-using IdentityServer4.Services;
-using IdentityServer4.Services.Default;
-using IdentityServer4.Stores;
-using IdentityServer4.Stores.Serialization;
-using IdentityServer4.Validation;
+using OpenIdentityServer.Configuration;
+using OpenIdentityServer.Infrastructure.Clock;
+using OpenIdentityServer.Models;
+using OpenIdentityServer.Services;
+using OpenIdentityServer.Services.Default;
+using OpenIdentityServer.Stores;
+using OpenIdentityServer.Stores.Serialization;
+using OpenIdentityServer.Validation;
 using Microsoft.Extensions.Logging;
 
 namespace IdentityServer.UnitTests.Validation.Setup

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using FluentAssertions;
 using IdentityModel;
 using IdentityServer.UnitTests.Validation.Setup;
-using IdentityServer4.Stores;
+using OpenIdentityServer.Stores;
 using Xunit;
 
 namespace IdentityServer.UnitTests.Validation.TokenRequest_Validation

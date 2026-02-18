@@ -2,19 +2,19 @@
 // Licensed under the Apache License, Version 2.0. See LICENSE in the project root for license information.
 
 
-using IdentityServer4.Extensions;
-using IdentityServer4.Models;
-using IdentityServer4.Stores;
+using OpenIdentityServer.Extensions;
+using OpenIdentityServer.Models;
+using OpenIdentityServer.Stores;
 using Microsoft.Extensions.Logging;
 using System.Security.Claims;
 using System.Threading.Tasks;
 using IdentityModel;
-using IdentityServer4.Logging.Models;
-using IdentityServer4.Validation;
+using OpenIdentityServer.Logging.Models;
+using OpenIdentityServer.Validation;
 using Microsoft.AspNetCore.Authentication;
-using IdentityServer4.Infrastructure.Clock;
+using OpenIdentityServer.Infrastructure.Clock;
 
-namespace IdentityServer4.Services
+namespace OpenIdentityServer.Services
 {
     /// <summary>
     /// Default refresh token service

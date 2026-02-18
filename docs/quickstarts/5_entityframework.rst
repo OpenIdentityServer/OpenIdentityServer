@@ -26,7 +26,7 @@ You can find these contexts, their entities, and the IdentityServer4 stores that
 
 You can find the extension methods to register them in your IdentityServer in ``IdentityServer4.EntityFramework``, which we will do now::
 
-    dotnet add package IdentityServer4.EntityFramework
+    dotnet add package OpenIdentityServer.EntityFramework
 
 Using SqlServer
 ^^^^^^^^^^^^^^^
@@ -146,8 +146,8 @@ In `Startup.cs` add this method to help initialize the database::
 The above code may require you to add the following namespaces to your file::
 
     using System.Linq;
-    using IdentityServer4.EntityFramework.DbContexts;
-    using IdentityServer4.EntityFramework.Mappers;
+    using OpenIdentityServer.EntityFramework.DbContexts;
+    using OpenIdentityServer.EntityFramework.Mappers;
 
 And then we can invoke this from the ``Configure`` method::
 

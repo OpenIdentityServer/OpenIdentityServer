@@ -7,7 +7,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Security.Claims;
 
-namespace IdentityServer4.Validation
+namespace OpenIdentityServer.Validation
 {
     /// <summary>
     /// Models a validated request to the authorize endpoint.

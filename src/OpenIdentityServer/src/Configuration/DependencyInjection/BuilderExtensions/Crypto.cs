@@ -3,9 +3,9 @@
 
 
 using IdentityServer4;
-using IdentityServer4.Configuration;
-using IdentityServer4.Models;
-using IdentityServer4.Stores;
+using OpenIdentityServer.Configuration;
+using OpenIdentityServer.Models;
+using OpenIdentityServer.Stores;
 using Microsoft.IdentityModel.Tokens;
 using Newtonsoft.Json;
 using System;

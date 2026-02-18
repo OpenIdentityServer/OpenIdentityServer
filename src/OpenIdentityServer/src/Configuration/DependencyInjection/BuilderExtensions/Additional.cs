@@ -2,17 +2,17 @@
 // Licensed under the Apache License, Version 2.0. See LICENSE in the project root for license information.
 
 
-using IdentityServer4.ResponseHandling;
-using IdentityServer4.Services;
-using IdentityServer4.Stores;
-using IdentityServer4.Validation;
+using OpenIdentityServer.ResponseHandling;
+using OpenIdentityServer.Services;
+using OpenIdentityServer.Stores;
+using OpenIdentityServer.Validation;
 using Microsoft.Extensions.DependencyInjection.Extensions;
 using System;
 using System.Net.Http;
 using IdentityServer4;
-using IdentityServer4.Configuration;
+using OpenIdentityServer.Configuration;
 using Microsoft.Extensions.Logging;
-using IdentityServer4.Infrastructure.Clock;
+using OpenIdentityServer.Infrastructure.Clock;
 
 namespace Microsoft.Extensions.DependencyInjection
 {
@@ -452,7 +452,7 @@ namespace Microsoft.Extensions.DependencyInjection
             where T : class, IUserSession
         {
             // This is added as scoped due to the note regarding the AuthenticateAsync
-            // method in the IdentityServer4.Services.DefaultUserSession implementation.
+            // method in the OpenIdentityServer.Services.DefaultUserSession implementation.
             builder.Services.AddScoped<IUserSession, T>();
 
             return builder;

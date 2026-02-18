@@ -6,9 +6,9 @@ using IdentityModel;
 using System.Collections.Generic;
 using System.Security.Claims;
 using System.Threading.Tasks;
-using IdentityServer4.Extensions;
+using OpenIdentityServer.Extensions;
 using Microsoft.Extensions.DependencyInjection;
-using IdentityServer4.Configuration;
+using OpenIdentityServer.Configuration;
 
 namespace IdentityServer4
 {

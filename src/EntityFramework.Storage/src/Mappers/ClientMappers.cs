@@ -2,13 +2,13 @@
 // Licensed under the Apache License, Version 2.0. See LICENSE in the project root for license information.
 
 
-using IdentityServer4.EntityFramework.Entities;
-using IdentityServer4.Models;
+using OpenIdentityServer.EntityFramework.Entities;
+using OpenIdentityServer.Models;
 using System.Collections.Generic;
 using System.Linq;
 using System.Security.Claims;
 
-namespace IdentityServer4.EntityFramework.Mappers
+namespace OpenIdentityServer.EntityFramework.Mappers
 {
     /// <summary>
     /// Extension methods to map to/from entity/model for clients.

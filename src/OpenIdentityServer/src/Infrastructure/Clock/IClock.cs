@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace IdentityServer4.Infrastructure.Clock
+namespace OpenIdentityServer.Infrastructure.Clock
 {
     /// <summary>
     /// Abstraction for the date/time.

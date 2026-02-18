@@ -3,7 +3,7 @@
 
 
 using System;
-using IdentityServer4.Infrastructure.Clock;
+using OpenIdentityServer.Infrastructure.Clock;
 
 namespace IdentityServer.UnitTests.Common
 {

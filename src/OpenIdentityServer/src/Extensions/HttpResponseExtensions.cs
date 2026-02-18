@@ -2,8 +2,8 @@
 // Licensed under the Apache License, Version 2.0. See LICENSE in the project root for license information.
 
 
-using IdentityServer4.Configuration;
-using IdentityServer4.Models;
+using OpenIdentityServer.Configuration;
+using OpenIdentityServer.Models;
 using Microsoft.AspNetCore.Http;
 using System.Linq;
 using System.Text;
@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 
 #pragma warning disable 1591
 
-namespace IdentityServer4.Extensions
+namespace OpenIdentityServer.Extensions
 {
     public static class HttpResponseExtensions
     {

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using FluentAssertions;
-using IdentityServer4.Models;
+using OpenIdentityServer.Models;
 using Xunit;
 
 namespace IdentityServer.UnitTests.Extensions

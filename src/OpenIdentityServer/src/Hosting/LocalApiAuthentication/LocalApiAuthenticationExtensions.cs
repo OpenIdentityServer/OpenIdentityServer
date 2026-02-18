@@ -3,7 +3,7 @@
 
 
 using IdentityServer4;
-using IdentityServer4.Hosting.LocalApiAuthentication;
+using OpenIdentityServer.Hosting.LocalApiAuthentication;
 using Microsoft.AspNetCore.Authentication;
 using System;
 using System.Security.Claims;

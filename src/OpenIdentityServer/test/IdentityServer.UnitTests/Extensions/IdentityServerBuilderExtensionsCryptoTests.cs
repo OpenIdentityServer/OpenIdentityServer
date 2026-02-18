@@ -3,7 +3,7 @@
 
 
 using IdentityServer4;
-using IdentityServer4.Configuration;
+using OpenIdentityServer.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.IdentityModel.Tokens;
 using System;

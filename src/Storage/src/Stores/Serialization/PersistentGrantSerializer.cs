@@ -4,7 +4,7 @@
 
 using Newtonsoft.Json;
 
-namespace IdentityServer4.Stores.Serialization
+namespace OpenIdentityServer.Stores.Serialization
 {
     /// <summary>
     /// JSON-based persisted grant serializer

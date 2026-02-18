@@ -9,16 +9,16 @@ using System.Linq;
 using System.Security.Claims;
 using System.Threading.Tasks;
 using IdentityModel;
-using IdentityServer4.Configuration;
-using IdentityServer4.Extensions;
-using IdentityServer4.Models;
+using OpenIdentityServer.Configuration;
+using OpenIdentityServer.Extensions;
+using OpenIdentityServer.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Logging;
 using Microsoft.IdentityModel.Tokens;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 
-namespace IdentityServer4.Validation
+namespace OpenIdentityServer.Validation
 {
     /// <summary>
     /// Validates JWT authorization request objects

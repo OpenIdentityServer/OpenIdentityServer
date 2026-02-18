@@ -6,19 +6,19 @@ using System.Threading.Tasks;
 using FluentAssertions;
 using IdentityServer.UnitTests.Common;
 using IdentityServer4;
-using IdentityServer4.Configuration;
-using IdentityServer4.Infrastructure.Clock;
-using IdentityServer4.Models;
-using IdentityServer4.ResponseHandling;
-using IdentityServer4.Services;
-using IdentityServer4.Validation;
+using OpenIdentityServer.Configuration;
+using OpenIdentityServer.Infrastructure.Clock;
+using OpenIdentityServer.Models;
+using OpenIdentityServer.ResponseHandling;
+using OpenIdentityServer.Services;
+using OpenIdentityServer.Validation;
 using Microsoft.Extensions.Logging;
 using Xunit;
 using static IdentityModel.OidcConstants;
 
 namespace IdentityServer.UnitTests.ResponseHandling.AuthorizeInteractionResponseGenerator
 {
-    public class CustomAuthorizeInteractionResponseGenerator : IdentityServer4.ResponseHandling.AuthorizeInteractionResponseGenerator
+    public class CustomAuthorizeInteractionResponseGenerator : OpenIdentityServer.ResponseHandling.AuthorizeInteractionResponseGenerator
     {
         public CustomAuthorizeInteractionResponseGenerator(IClock clock, ILogger<IdentityServer4.ResponseHandling.AuthorizeInteractionResponseGenerator> logger, IConsentService consent, IProfileService profile) : base(clock, logger, consent, profile)
         {

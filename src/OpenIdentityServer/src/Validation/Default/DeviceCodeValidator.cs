@@ -5,13 +5,13 @@
 using System.Linq;
 using System.Threading.Tasks;
 using IdentityModel;
-using IdentityServer4.Extensions;
-using IdentityServer4.Infrastructure.Clock;
-using IdentityServer4.Models;
-using IdentityServer4.Services;
+using OpenIdentityServer.Extensions;
+using OpenIdentityServer.Infrastructure.Clock;
+using OpenIdentityServer.Models;
+using OpenIdentityServer.Services;
 using Microsoft.Extensions.Logging;
 
-namespace IdentityServer4.Validation
+namespace OpenIdentityServer.Validation
 {
     /// <summary>
     /// Validates an incoming token request using the device flow

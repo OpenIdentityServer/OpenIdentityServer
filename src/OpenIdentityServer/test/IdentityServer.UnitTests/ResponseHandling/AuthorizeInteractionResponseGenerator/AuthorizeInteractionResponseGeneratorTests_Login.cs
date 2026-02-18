@@ -10,9 +10,9 @@ using FluentAssertions;
 using IdentityModel;
 using IdentityServer.UnitTests.Common;
 using IdentityServer4;
-using IdentityServer4.Configuration;
-using IdentityServer4.Models;
-using IdentityServer4.Validation;
+using OpenIdentityServer.Configuration;
+using OpenIdentityServer.Models;
+using OpenIdentityServer.Validation;
 using Xunit;
 
 namespace IdentityServer.UnitTests.ResponseHandling.AuthorizeInteractionResponseGenerator
@@ -20,13 +20,13 @@ namespace IdentityServer.UnitTests.ResponseHandling.AuthorizeInteractionResponse
     public class AuthorizeInteractionResponseGeneratorTests_Login
     {
         private IdentityServerOptions _options = new IdentityServerOptions();
-        private IdentityServer4.ResponseHandling.AuthorizeInteractionResponseGenerator _subject;
+        private OpenIdentityServer.ResponseHandling.AuthorizeInteractionResponseGenerator _subject;
         private MockConsentService _mockConsentService = new MockConsentService();
         private StubClock _clock = new StubClock();
 
         public AuthorizeInteractionResponseGeneratorTests_Login()
         {
-            _subject = new IdentityServer4.ResponseHandling.AuthorizeInteractionResponseGenerator(
+            _subject = new OpenIdentityServer.ResponseHandling.AuthorizeInteractionResponseGenerator(
                 _clock,
                 TestLogger.Create<IdentityServer4.ResponseHandling.AuthorizeInteractionResponseGenerator>(),
                 _mockConsentService,

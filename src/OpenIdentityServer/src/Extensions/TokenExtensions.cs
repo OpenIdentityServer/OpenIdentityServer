@@ -3,7 +3,7 @@
 
 
 using IdentityModel;
-using IdentityServer4.Models;
+using OpenIdentityServer.Models;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.Extensions.Logging;
 using Newtonsoft.Json.Linq;
@@ -12,10 +12,10 @@ using System.Collections.Generic;
 using System.IdentityModel.Tokens.Jwt;
 using System.Linq;
 using System.Security.Claims;
-using IdentityServer4.Configuration;
-using IdentityServer4.Infrastructure.Clock;
+using OpenIdentityServer.Configuration;
+using OpenIdentityServer.Infrastructure.Clock;
 
-namespace IdentityServer4.Extensions
+namespace OpenIdentityServer.Extensions
 {
     /// <summary>
     /// Extensions for Token

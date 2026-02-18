@@ -4,7 +4,7 @@
 
 using System.Collections.Generic;
 using IdentityServer4;
-using IdentityServer4.Models;
+using OpenIdentityServer.Models;
 
 namespace IdentityServerHost.Configuration
 {

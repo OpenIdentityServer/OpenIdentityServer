@@ -12,8 +12,8 @@ using IdentityModel;
 using IdentityModel.Client;
 using IdentityServer.IntegrationTests.Common;
 using IdentityServer4;
-using IdentityServer4.Models;
-using IdentityServer4.Test;
+using OpenIdentityServer.Models;
+using OpenIdentityServer.Test;
 using Xunit;
 
 namespace IdentityServer.IntegrationTests.Conformance.Pkce

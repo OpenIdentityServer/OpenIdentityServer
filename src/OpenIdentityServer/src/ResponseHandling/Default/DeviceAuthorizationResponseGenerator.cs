@@ -4,15 +4,15 @@
 
 using System;
 using System.Threading.Tasks;
-using IdentityServer4.Configuration;
-using IdentityServer4.Extensions;
-using IdentityServer4.Infrastructure.Clock;
-using IdentityServer4.Models;
-using IdentityServer4.Services;
-using IdentityServer4.Validation;
+using OpenIdentityServer.Configuration;
+using OpenIdentityServer.Extensions;
+using OpenIdentityServer.Infrastructure.Clock;
+using OpenIdentityServer.Models;
+using OpenIdentityServer.Services;
+using OpenIdentityServer.Validation;
 using Microsoft.Extensions.Logging;
 
-namespace IdentityServer4.ResponseHandling
+namespace OpenIdentityServer.ResponseHandling
 {
     /// <summary>
     /// The device authorizaiton response generator

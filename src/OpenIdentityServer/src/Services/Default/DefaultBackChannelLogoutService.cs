@@ -8,11 +8,11 @@ using System.Linq;
 using System.Security.Claims;
 using System.Threading.Tasks;
 using IdentityModel;
-using IdentityServer4.Infrastructure.Clock;
-using IdentityServer4.Models;
+using OpenIdentityServer.Infrastructure.Clock;
+using OpenIdentityServer.Models;
 using Microsoft.Extensions.Logging;
 
-namespace IdentityServer4.Services
+namespace OpenIdentityServer.Services
 {
     /// <summary>
     /// Default back-channel logout notification implementation.

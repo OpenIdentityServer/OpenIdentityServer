@@ -3,7 +3,7 @@
 
 
 using IdentityModel;
-using IdentityServer4.Models;
+using OpenIdentityServer.Models;
 using System;
 using System.Collections.Generic;
 

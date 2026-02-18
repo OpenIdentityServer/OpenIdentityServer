@@ -3,22 +3,22 @@
 
 
 using System.Threading.Tasks;
-using IdentityServer4.Models;
-using IdentityServer4.Extensions;
-using IdentityServer4.Hosting;
+using OpenIdentityServer.Models;
+using OpenIdentityServer.Extensions;
+using OpenIdentityServer.Hosting;
 using IdentityModel;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
 using System;
-using IdentityServer4.Services;
-using IdentityServer4.Configuration;
-using IdentityServer4.Stores;
-using IdentityServer4.ResponseHandling;
+using OpenIdentityServer.Services;
+using OpenIdentityServer.Configuration;
+using OpenIdentityServer.Stores;
+using OpenIdentityServer.ResponseHandling;
 using Microsoft.AspNetCore.Authentication;
 using System.Text.Encodings.Web;
-using IdentityServer4.Infrastructure.Clock;
+using OpenIdentityServer.Infrastructure.Clock;
 
-namespace IdentityServer4.Endpoints.Results
+namespace OpenIdentityServer.Endpoints.Results
 {
     internal class AuthorizeResult : IEndpointResult
     {

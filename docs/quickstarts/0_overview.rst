@@ -19,7 +19,7 @@ Preparation
 ^^^^^^^^^^^
 The first thing you should do is install our templates::
 
-    dotnet new -i IdentityServer4.Templates
+    dotnet new -i OpenIdentityServer.Templates
 
 They will be used as a starting point for the various tutorials.
 

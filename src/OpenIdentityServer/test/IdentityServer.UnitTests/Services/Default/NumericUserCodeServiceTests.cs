@@ -1,6 +1,6 @@
 using System.Threading.Tasks;
 using FluentAssertions;
-using IdentityServer4.Services;
+using OpenIdentityServer.Services;
 using Xunit;
 
 namespace IdentityServer.UnitTests.Services.Default

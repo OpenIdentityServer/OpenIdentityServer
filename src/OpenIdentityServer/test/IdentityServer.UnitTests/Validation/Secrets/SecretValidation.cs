@@ -7,10 +7,10 @@ using FluentAssertions;
 using IdentityServer.UnitTests.Common;
 using IdentityServer.UnitTests.Validation.Setup;
 using IdentityServer4;
-using IdentityServer4.Configuration;
-using IdentityServer4.Models;
-using IdentityServer4.Stores;
-using IdentityServer4.Validation;
+using OpenIdentityServer.Configuration;
+using OpenIdentityServer.Models;
+using OpenIdentityServer.Stores;
+using OpenIdentityServer.Validation;
 using Microsoft.Extensions.Logging;
 using Xunit;
 

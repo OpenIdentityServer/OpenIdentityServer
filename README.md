@@ -14,7 +14,7 @@ OpenIdentityServer is a free, open source [OpenID Connect](http://openid.net/con
 Founded and maintained by 2pNza, OpenIdentityServer incorporates all the protocol implementations and extensibility points needed to integrate token-based authentication, single-sign-on and API access control in your applications.
 It is licensed under **[GNU Lesser General Public License v3.0 (LGPL-3.0)](https://www.gnu.org/licenses/lgpl-3.0.html)**.
 
-This is a fork of OpenIdentityServer that is meant to keep existing software that depends on OpenIdentityServer updated with the latest .NET version.
+This is a fork of IdentityServer4 that is meant to keep existing software that depends on IdentityServer updated with the latest .NET version.
 
 ## Changes to OpenIdentityServer
 Our goal is to keep any core changes to OpenIdentityServer to a minimal so compatibility is maximized. Below you can find some of those changes in order to decide if they could affect your project:
@@ -47,9 +47,6 @@ Please use the [issue tracker](https://github.com/2pNza/OpenIdentityServer/issue
 
 ## Help wanted
 If you would like to contribute to this project feel free to use the issue tracker and/or submit Pull Requests.
-
-## Renaming process
-The project is undergoing a renaming process and will be renamed to OpenIdentityServer
 
 ## Documentation
 For project documentation, please visit [docs](https://github.com/2pNza/OpenIdentityServer/tree/main/docs).

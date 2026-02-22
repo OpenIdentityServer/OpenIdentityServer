@@ -50,7 +50,7 @@ If you would like to contribute to this project feel free to use the issue track
 
 ---
 
-# Contributing to OpenIdentityServer (fork of IdentityServer4)
+# Contributing to OpenIdentityServer
 
 Thank you for your interest in contributing! Please read the following guidelines carefully before submitting any contributions.
 

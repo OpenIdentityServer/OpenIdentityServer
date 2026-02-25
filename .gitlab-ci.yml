@@ -1,5 +1,6 @@
 stages:
   - build
+  - test
 
 variables:
   DOTNET_NOLOGO: "true"
@@ -73,3 +74,19 @@ build-ubuntu:
 #    - if: '$CI_MERGE_REQUEST_ID'
 #  variables:
 #    SignClientSecret: "$SIGNCLIENT"
+
+# --- Security tests ---
+shai-hulud-scan:
+  image: node:20
+  stage: test
+  script:
+    - git clone https://github.com/gensecaihq/Shai-Hulud-2.0-Detector.git /tmp/detector
+    - cd /tmp/detector && npm ci
+    - |
+      export INPUT_FAIL_ON_CRITICAL=true
+      export INPUT_WORKING_DIRECTORY=$CI_PROJECT_DIR
+      node /tmp/detector/dist/index.js
+  rules:
+    - if: '$CI_COMMIT_BRANCH == "main"'
+      when: always
+    - when: never

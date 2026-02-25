@@ -1,0 +1,38 @@
+stages:
+  - build
+
+variables:
+  DOTNET_NOLOGO: "true"
+
+.build_template: &build_template
+  stage: build
+  parallel:
+    matrix:
+      - RUNS_ON: "macos-latest"
+      - RUNS_ON: "ubuntu-latest"
+      - RUNS_ON: "windows-latest"
+  before_script:
+    - echo "Running on $RUNS_ON"
+  script:
+    - if [[ "$RUNS_ON" != "windows-latest" ]]; then
+        dotnet --info;
+        curl -sSL https://dot.net/v1/dotnet-install.sh | bash /dev/stdin --version 8.0.121;
+        chmod +x ./build.sh;
+        ./build.sh;
+      else
+        dotnet --info;
+        powershell -Command "Invoke-WebRequest -Uri https://dot.net/v1/dotnet-install.ps1 -OutFile dotnet-install.ps1";
+        powershell -File dotnet-install.ps1 -Version 8.0.121;
+        if [[ "$CI_COMMIT_BRANCH" == "main" || "$CI_COMMIT_TAG" != "" ]]; then
+          pwsh ./build.ps1;
+        else
+          pwsh ./build.ps1;
+        fi
+      fi
+
+build:
+  <<: *build_template
+  only:
+    refs:
+      - main
+      - /^features\/.*/

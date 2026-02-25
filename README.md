@@ -1,10 +1,8 @@
 # OpenIdentityServer
 
-![Contributors](https://img.shields.io/github/contributors/2pNza/OpenIdentityServer?style=for-the-badge)
-[![License: LGPL v3](https://img.shields.io/badge/License-LGPL%20v3-blue.svg?style=for-the-badge)](https://www.gnu.org/licenses/lgpl-3.0.html)
-[![CLA Assistant](https://img.shields.io/badge/CLA%20Assistant-green?style=for-the-badge)](https://cla-assistant.io/2pNza/OpenIdentityServer)
-![Version](https://img.shields.io/github/v/tag/2pNza/OpenIdentityServer?style=for-the-badge)
-[![CI Status](https://img.shields.io/github/actions/workflow/status/2pNza/OpenIdentityServer/ci.yml?style=for-the-badge&label=CI)](https://github.com/2pNza/OpenIdentityServer/actions/workflows/ci.yml)
+[![GitLab CI Pipeline Status](https://gitlab.com/2pNza/OpenIdentityServer/badges/main/pipeline.svg)](https://gitlab.com/2pNza/OpenIdentityServer/-/commits/main)
+[![Latest Release](https://gitlab.com/2pNza/OpenIdentityServer/-/badges/release.svg)](https://gitlab.com/2pNza/OpenIdentityServer/-/releases)
+[![License: LGPL v3](https://img.shields.io/badge/License-LGPL%20v3-blue.svg)](https://www.gnu.org/licenses/lgpl-3.0.html)
 
 <img width="155" height="51" alt="image" src="https://www.gnu.org/graphics/lgplv3-147x51.png" />
 

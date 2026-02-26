@@ -1,14 +1,14 @@
 <Project>
 
     <PropertyGroup>
-        <AspNetVersion>3.1.5</AspNetVersion>
+        <AspNetVersion>8.0.14</AspNetVersion>
     </PropertyGroup>
 
     <ItemGroup>
         <PackageReference Update="IdentityModel" Version="4.3.0" />
-        <PackageReference Update="OpenIdentityServer" Version="4.0.0" />
-        <PackageReference Update="OpenIdentityServer.EntityFramework" Version="4.0.0" />
-        <PackageReference Update="OpenIdentityServer.AspNetIdentity" Version="4.0.0" />
+        <PackageReference Update="2pNza.OpenIdentityServer" Version="1.0.3" />
+        <PackageReference Update="2pNza.OpenIdentityServer.EntityFramework" Version="1.0.3" />
+        <PackageReference Update="2pNza.OpenIdentityServer.AspNetIdentity" Version="1.0.3" />
 
         <PackageReference Update="Microsoft.AspNetCore.Authentication.OpenIdConnect" Version="$(AspNetVersion)" />
         <PackageReference Update="Microsoft.AspNetCore.Authentication.JwtBearer" Version="$(AspNetVersion)" />

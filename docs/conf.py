@@ -59,8 +59,8 @@ master_doc = 'index'
 
 # General information about the project.
 project = 'OpenIdentityServer'
-copyright = '2020, Brock Allen & Dominick Baier'
-author = 'Brock Allen & Dominick Baier'
+copyright = '2020, Brock Allen & Dominick Baier | Copyright (c) 2026 2pNza'
+author = 'Brock Allen & Dominick Baier | 2pNza'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the

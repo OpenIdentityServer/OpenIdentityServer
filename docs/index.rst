@@ -12,7 +12,7 @@ It enables the following features in your applications:
 
 
 | **Authentication as a Service** 
-| Centralized login logic and workflow for all of your applications (web, native, mobile, services). IdentityServer is an officially `certified <https://openid.net/certification/>`_ implementation of OpenID Connect.
+| Centralized login logic and workflow for all of your applications (web, native, mobile, services).
 
 | **Single Sign-on / Sign-out** 
 | Single sign-on (and out) over multiple application types.

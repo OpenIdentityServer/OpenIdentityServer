@@ -4,4 +4,4 @@ OpenIdentityServer.EntityFramework is a package that provides the configuration 
 
 ## Issues
 
-For issues, use the [consolidated OpenIdentityServer issue tracker](https://github.com/2pNza/OpenIdentityServer/issues).
+For issues, use the [consolidated OpenIdentityServer issue tracker](https://gitlab.com/2pNza/OpenIdentityServer/issues).

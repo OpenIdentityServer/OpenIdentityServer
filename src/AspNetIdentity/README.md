@@ -6,4 +6,4 @@ You can find a detailed walk-through for ASP.NET Core Identity integration [here
 
 ## Issues
 
-For issues, use the [consolidated OpenIdentityServer issue tracker](https://github.com/2pNza/OpenIdentityServer/issues).
+For issues, use the [consolidated OpenIdentityServer issue tracker](https://gitlab.com/2pNza/OpenIdentityServer/issues).

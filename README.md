@@ -41,7 +41,7 @@ Active development happens on the main branch. This always contains the latest v
 * Run `build.ps1` or `build.sh` in the root of the cloned repo
 
 ## Bug reports and feature requests
-Please use the [issue tracker](https://github.com/2pNza/OpenIdentityServer/issues) for that.
+Please use the [issue tracker](https://gitlab.com/2pNza/OpenIdentityServer/issues) for that.
 
 ## Help wanted
 If you would like to contribute to this project feel free to use the issue tracker and/or submit Pull Requests.
@@ -72,7 +72,7 @@ Thank you for your interest in contributing! Please read the following guideline
 ---
 
 ## Documentation
-For project documentation, please visit [docs](https://github.com/2pNza/OpenIdentityServer/tree/main/docs).
+For project documentation, please visit [docs](https://gitlab.com/2pNza/OpenIdentityServer/tree/main/docs).
 
 ## Acknowledgements
 OpenIdentityServer is built using the following great open source projects and free services:

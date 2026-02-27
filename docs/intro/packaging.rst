@@ -5,7 +5,7 @@ IdentityServer consists of a number of nuget packages.
 
 OpenIdentityServer main repo
 ^^^^^^^^^^^^^^^
-`github <https://github.com/2pNza/OpenIdentityServer>`_
+`github <https://gitlab.com/2pNza/OpenIdentityServer>`_
 
 Contains the core IdentityServer object model, services and middleware as well as the EntityFramework and ASP.NET Identity integration.
 
@@ -17,19 +17,19 @@ nugets:
 
 Quickstart UI
 ^^^^^^^^^^^^^
-`github <https://github.com/2pNza/OpenIdentityServer.Quickstart.UI>`_
+`github <https://gitlab.com/2pNza/OpenIdentityServer.Quickstart.UI>`_
 
 Contains a simple starter UI including login, logout and consent pages.
 
 Access token validation handler
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-`nuget <https://www.nuget.org/packages/2pNza.AccessTokenValidation>`_ | `github <https://github.com/2pNza/OpenIdentityServer.AccessTokenValidation>`_
+`nuget <https://www.nuget.org/packages/2pNza.AccessTokenValidation>`_ | `github <https://gitlab.com/2pNza/OpenIdentityServer.AccessTokenValidation>`_
 
 ASP.NET Core authentication handler for validating tokens in APIs. The handler allows supporting both JWT and reference tokens in the same API.
 
 Templates
 ^^^^^^^^^
-`nuget <https://www.nuget.org/packages/2pNza.Templates>`_ | `github <https://github.com/2pNza/OpenIdentityServer.Templates>`_
+`nuget <https://www.nuget.org/packages/2pNza.Templates>`_ | `github <https://gitlab.com/2pNza/OpenIdentityServer.Templates>`_
 
 Contains templates for the dotnet CLI.
 

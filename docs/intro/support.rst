@@ -27,10 +27,10 @@ https://gitter.im/2pNza/OpenIdentityServer
 
 **Reporting a bug**
 
-If you think you have found a bug or unexpected behavior, please open an issue on the Github `issue tracker <https://github.com/2pNza/OpenIdentityServer/issues>`_.
+If you think you have found a bug or unexpected behavior, please open an issue on the Github `issue tracker <https://gitlab.com/2pNza/OpenIdentityServer/issues>`_.
 We try to get back to you ASAP. Please understand that we also have day jobs, and might be too busy to reply immediately.
 
-Also check the `contribution <https://github.com/2pNza/OpenIdentityServer/blob/dev/CONTRIBUTING.md>`_ guidelines before posting.
+Also check the `contribution <https://gitlab.com/2pNza/OpenIdentityServer/blob/dev/CONTRIBUTING.md>`_ guidelines before posting.
 
 Commercial support
 ^^^^^^^^^^^^^^^^^^

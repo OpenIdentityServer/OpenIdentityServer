@@ -13,7 +13,7 @@ it is recommended you do them in order.
 * adding support for ASP.NET Identity
 
 Every quickstart has a reference solution - you can find the code in the 
-`samples <https://github.com/2pNza/OpenIdentityServer/tree/main/samples/Quickstarts>`_ folder.
+`samples <https://gitlab.com/2pNza/OpenIdentityServer/tree/main/samples/Quickstarts>`_ folder.
 
 Preparation
 ^^^^^^^^^^^

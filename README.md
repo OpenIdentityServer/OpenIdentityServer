@@ -72,7 +72,7 @@ Thank you for your interest in contributing! Please read the following guideline
 ---
 
 ## Documentation
-For project documentation, please visit [docs](https://gitlab.com/2pNza/OpenIdentityServer/tree/main/docs).
+For project documentation, please visit [readthedocs](https://openidentityserver.readthedocs.io/en/latest/) & [docs](https://gitlab.com/2pNza/OpenIdentityServer/tree/main/docs).
 
 ## Acknowledgements
 OpenIdentityServer is built using the following great open source projects and free services:

@@ -1,3 +1,5 @@
+SPDX-License-Identifier: Apache-2.0
+
 # jQuery
 
 > jQuery is a fast, small, and feature-rich JavaScript library.

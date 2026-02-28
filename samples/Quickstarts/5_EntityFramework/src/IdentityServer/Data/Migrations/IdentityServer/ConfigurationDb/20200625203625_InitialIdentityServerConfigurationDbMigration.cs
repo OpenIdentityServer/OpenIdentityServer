@@ -1,4 +1,6 @@
-﻿using System;
+// SPDX-License-Identifier: Apache-2.0
+
+using System;
 using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace IdentityServer.Data.Migrations.IdentityServer.ConfigurationDb

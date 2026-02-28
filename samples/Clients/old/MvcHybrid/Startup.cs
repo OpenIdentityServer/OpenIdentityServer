@@ -1,4 +1,6 @@
-﻿using System;
+// SPDX-License-Identifier: Apache-2.0
+
+using System;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.DependencyInjection;
 using System.IdentityModel.Tokens.Jwt;

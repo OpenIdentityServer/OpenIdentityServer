@@ -1,4 +1,6 @@
-﻿using System;
+// SPDX-License-Identifier: Apache-2.0
+
+using System;
 using System.Linq;
 using System.Runtime.InteropServices;
 using Microsoft.EntityFrameworkCore;

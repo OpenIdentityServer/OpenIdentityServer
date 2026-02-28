@@ -1,4 +1,6 @@
-﻿using Clients;
+// SPDX-License-Identifier: Apache-2.0
+
+using Clients;
 using IdentityModel;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Builder;

@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore;
+// SPDX-License-Identifier: Apache-2.0
+
+using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
 
 namespace migrations

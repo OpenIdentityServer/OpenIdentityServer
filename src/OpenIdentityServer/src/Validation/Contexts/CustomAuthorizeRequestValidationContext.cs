@@ -1,4 +1,6 @@
-﻿namespace OpenIdentityServer.Validation
+// SPDX-License-Identifier: Apache-2.0
+
+namespace OpenIdentityServer.Validation
 {
     /// <summary>
     /// Context for custom authorize request validation.

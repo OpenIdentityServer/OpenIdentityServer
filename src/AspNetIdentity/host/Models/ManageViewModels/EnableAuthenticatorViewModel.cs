@@ -1,4 +1,6 @@
-﻿using System.ComponentModel;
+// SPDX-License-Identifier: Apache-2.0
+
+using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 
 namespace OpenIdentityServer.Models.ManageViewModels

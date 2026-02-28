@@ -1,4 +1,6 @@
-﻿using IdentityModel.Client;
+// SPDX-License-Identifier: Apache-2.0
+
+using IdentityModel.Client;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.OpenIdConnect;
 using Microsoft.Extensions.Logging;

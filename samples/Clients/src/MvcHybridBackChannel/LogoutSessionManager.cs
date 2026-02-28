@@ -1,4 +1,6 @@
-﻿using System.Collections.Generic;
+// SPDX-License-Identifier: Apache-2.0
+
+using System.Collections.Generic;
 using System.Linq;
 
 namespace MvcHybrid

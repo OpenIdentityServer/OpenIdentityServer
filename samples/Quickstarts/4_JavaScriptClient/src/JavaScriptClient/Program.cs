@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Hosting;
+// SPDX-License-Identifier: Apache-2.0
+
+using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Hosting;
 
 namespace JavaScriptClient

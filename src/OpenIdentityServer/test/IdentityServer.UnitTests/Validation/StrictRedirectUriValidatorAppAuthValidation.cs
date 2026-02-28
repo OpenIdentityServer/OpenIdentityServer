@@ -1,4 +1,6 @@
-﻿using FluentAssertions;
+// SPDX-License-Identifier: Apache-2.0
+
+using FluentAssertions;
 using IdentityServer.UnitTests.Common;
 using OpenIdentityServer.Models;
 using OpenIdentityServer.Validation;

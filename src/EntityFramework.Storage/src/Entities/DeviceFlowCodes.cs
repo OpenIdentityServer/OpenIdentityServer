@@ -1,4 +1,6 @@
-﻿using System;
+// SPDX-License-Identifier: Apache-2.0
+
+using System;
 
 namespace OpenIdentityServer.EntityFramework.Entities
 {

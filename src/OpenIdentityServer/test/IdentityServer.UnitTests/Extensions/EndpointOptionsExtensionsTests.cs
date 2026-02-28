@@ -1,4 +1,6 @@
-﻿using OpenIdentityServer.Configuration;
+// SPDX-License-Identifier: Apache-2.0
+
+using OpenIdentityServer.Configuration;
 using OpenIdentityServer.Extensions;
 using OpenIdentityServer.Hosting;
 using Xunit;

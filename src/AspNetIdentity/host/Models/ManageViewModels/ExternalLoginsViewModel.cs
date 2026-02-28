@@ -1,4 +1,6 @@
-﻿using System.Collections.Generic;
+// SPDX-License-Identifier: Apache-2.0
+
+using System.Collections.Generic;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Identity;
 

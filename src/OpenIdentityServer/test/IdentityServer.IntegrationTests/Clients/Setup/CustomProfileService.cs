@@ -1,4 +1,6 @@
-﻿using System.Threading.Tasks;
+// SPDX-License-Identifier: Apache-2.0
+
+using System.Threading.Tasks;
 using OpenIdentityServer.Models;
 using OpenIdentityServer.Test;
 using Microsoft.Extensions.Logging;

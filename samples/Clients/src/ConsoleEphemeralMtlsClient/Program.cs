@@ -1,4 +1,6 @@
-﻿using System;
+// SPDX-License-Identifier: Apache-2.0
+
+using System;
 using System.Net;
 using System.Net.Http;
 using System.Security.Cryptography;

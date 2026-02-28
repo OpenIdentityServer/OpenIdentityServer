@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Mvc;
+// SPDX-License-Identifier: Apache-2.0
+
+using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Threading.Tasks;
 using IdentityModel.Client;

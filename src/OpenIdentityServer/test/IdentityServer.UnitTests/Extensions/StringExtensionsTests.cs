@@ -1,4 +1,6 @@
-﻿using OpenIdentityServer.Extensions;
+// SPDX-License-Identifier: Apache-2.0
+
+using OpenIdentityServer.Extensions;
 using Xunit;
 
 namespace IdentityServer.UnitTests.Extensions

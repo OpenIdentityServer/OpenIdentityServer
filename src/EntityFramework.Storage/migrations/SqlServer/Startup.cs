@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Builder;
+// SPDX-License-Identifier: Apache-2.0
+
+using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Configuration;
 using OpenIdentityServer.EntityFramework.Storage;

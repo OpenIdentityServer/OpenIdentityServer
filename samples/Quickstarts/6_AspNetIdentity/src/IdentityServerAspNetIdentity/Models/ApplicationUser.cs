@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Identity;
+// SPDX-License-Identifier: Apache-2.0
+
+using Microsoft.AspNetCore.Identity;
 
 namespace IdentityServerAspNetIdentity.Models
 {

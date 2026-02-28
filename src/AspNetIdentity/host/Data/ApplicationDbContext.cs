@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: Apache-2.0
+
 ﻿using OpenIdentityServer.Models;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;

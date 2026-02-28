@@ -1,3 +1,5 @@
+# SPDX-License-Identifier: Apache-2.0
+
 $ErrorActionPreference = "Stop";
 
 New-Item -ItemType Directory -Force -Path ./nuget

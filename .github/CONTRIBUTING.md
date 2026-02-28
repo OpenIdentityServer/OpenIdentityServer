@@ -1,3 +1,5 @@
+SPDX-License-Identifier: Apache-2.0
+
 # Contributing to OpenIdentityServer
 
 Thank you for your interest in contributing! Please read the following guidelines carefully before submitting any contributions.

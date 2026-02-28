@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: Apache-2.0
 
-﻿using OpenIdentityServer.KeyManagement.EntityFramework;
+using OpenIdentityServer.KeyManagement.EntityFramework;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;

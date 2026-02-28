@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: Apache-2.0
 
-﻿using IdentityModel;
+using IdentityModel;
 using IdentityModel.Client;
 using Newtonsoft.Json.Linq;
 using System;

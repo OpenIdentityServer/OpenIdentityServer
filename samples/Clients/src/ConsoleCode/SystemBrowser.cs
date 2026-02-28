@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: Apache-2.0
 
-﻿using IdentityModel.OidcClient.Browser;
+using IdentityModel.OidcClient.Browser;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;

@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: Apache-2.0
 
-﻿using FluentAssertions;
+using FluentAssertions;
 using OpenIdentityServer.Models;
 using OpenIdentityServer.Test;
 using Newtonsoft.Json.Linq;

@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: Apache-2.0
 
-﻿using System;
+using System;
 using System.Net.Http;
 using System.Threading.Tasks;
 using Clients;

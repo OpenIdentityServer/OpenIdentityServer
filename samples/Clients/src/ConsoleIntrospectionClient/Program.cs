@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: Apache-2.0
 
-﻿using Clients;
+using Clients;
 using IdentityModel.Client;
 using System;
 using System.Linq;

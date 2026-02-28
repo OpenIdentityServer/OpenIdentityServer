@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: Apache-2.0
 
-﻿namespace build
+namespace build
 {
     partial class Program
     {

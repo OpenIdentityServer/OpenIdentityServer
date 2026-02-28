@@ -1,4 +1,6 @@
-﻿/// <reference path="libs/oidc-client.js" />
+// SPDX-License-Identifier: Apache-2.0
+
+/// <reference path="libs/oidc-client.js" />
 
 var config = {
     authority: "https://localhost:5001/",

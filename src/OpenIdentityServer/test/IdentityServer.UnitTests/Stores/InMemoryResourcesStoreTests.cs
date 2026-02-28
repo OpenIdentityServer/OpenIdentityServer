@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: Apache-2.0
 
-﻿using OpenIdentityServer.Models;
+using OpenIdentityServer.Models;
 using OpenIdentityServer.Stores;
 using System;
 using System.Collections.Generic;

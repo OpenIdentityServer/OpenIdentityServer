@@ -1,3 +1,5 @@
+SPDX-License-Identifier: Apache-2.0
+
 # OpenIdentityServer.AspNetIdentity
 
 ASP.NET Core Identity integration support for OpenIdentityServer.

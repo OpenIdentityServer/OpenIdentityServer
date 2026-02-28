@@ -1,4 +1,6 @@
-﻿/// <binding Clean='clean' />
+// SPDX-License-Identifier: Apache-2.0
+
+/// <binding Clean='clean' />
 "use strict";
 
 var gulp = require("gulp"),

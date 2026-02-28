@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: Apache-2.0
+
 /// <reference path="oidc-client.js" />
 
 function log() {

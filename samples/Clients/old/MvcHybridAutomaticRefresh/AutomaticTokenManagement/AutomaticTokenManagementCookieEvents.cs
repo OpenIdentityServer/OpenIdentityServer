@@ -1,5 +1,3 @@
-// SPDX-License-Identifier: Apache-2.0
-
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.Extensions.Logging;

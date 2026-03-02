@@ -1,5 +1,3 @@
-// SPDX-License-Identifier: Apache-2.0
-
 using System.Collections.Generic;
 using System.Security.Cryptography;
 using System.Security.Cryptography.X509Certificates;

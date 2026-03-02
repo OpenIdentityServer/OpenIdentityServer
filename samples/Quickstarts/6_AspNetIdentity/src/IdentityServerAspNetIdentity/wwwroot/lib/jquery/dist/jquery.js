@@ -1,5 +1,3 @@
-// SPDX-License-Identifier: Apache-2.0
-
 /*!
  * jQuery JavaScript Library v3.5.0
  * https://jquery.com/

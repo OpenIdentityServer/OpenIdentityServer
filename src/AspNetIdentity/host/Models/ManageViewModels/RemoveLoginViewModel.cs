@@ -1,5 +1,3 @@
-// SPDX-License-Identifier: Apache-2.0
-
 namespace OpenIdentityServer.Models.ManageViewModels
 {
     public class RemoveLoginViewModel

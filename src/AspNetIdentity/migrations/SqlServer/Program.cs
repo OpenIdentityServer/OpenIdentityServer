@@ -1,5 +1,3 @@
-// SPDX-License-Identifier: Apache-2.0
-
 using IdentityServerHost;
 using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;

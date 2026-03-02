@@ -1,5 +1,3 @@
-// SPDX-License-Identifier: Apache-2.0
-
 /* Provides a namespace for when the library is loaded outside a module loader environment */
 export as namespace Oidc;
 

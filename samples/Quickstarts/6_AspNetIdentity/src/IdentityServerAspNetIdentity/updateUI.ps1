@@ -1,5 +1,3 @@
-# SPDX-License-Identifier: Apache-2.0
-
 iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/IdentityServer/OpenIdentityServer.Quickstart.UI.AspNetIdentity/main/getmain.ps1'))	
 # SIG # Begin signature block
 # MIIfnQYJKoZIhvcNAQcCoIIfjjCCH4oCAQExDzANBglghkgBZQMEAgEFADB5Bgor

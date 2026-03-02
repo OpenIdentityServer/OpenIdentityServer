@@ -1,5 +1,3 @@
-// SPDX-License-Identifier: Apache-2.0
-
 var Oidc =
 /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache

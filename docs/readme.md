@@ -1,5 +1,3 @@
-SPDX-License-Identifier: Apache-2.0
-
 # OpenIdentityServer documentation
 
 The folder contains the documentation for openidentityserver.

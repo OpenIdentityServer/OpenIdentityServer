@@ -1,5 +1,3 @@
-// SPDX-License-Identifier: Apache-2.0
-
 /*!
  * jQuery Validation Plugin v1.14.0
  *

@@ -1,3 +1,1 @@
-# SPDX-License-Identifier: Apache-2.0
-
 dotnet ef migrations add InitialIdentityServerPersistedGrantDbMigration -c PersistedGrantDbContext -o Data/Migrations/IdentityServer/PersistedGrantDb -p src/OpenIdentityServer/host/Host.csproj

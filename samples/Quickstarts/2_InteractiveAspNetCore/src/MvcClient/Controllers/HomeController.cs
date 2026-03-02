@@ -1,5 +1,3 @@
-// SPDX-License-Identifier: Apache-2.0
-
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using MvcClient.Models;

@@ -1,5 +1,3 @@
-// SPDX-License-Identifier: Apache-2.0
-
 using Microsoft.EntityFrameworkCore.Migrations;
 using System;
 

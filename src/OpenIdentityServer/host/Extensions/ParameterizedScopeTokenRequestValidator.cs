@@ -1,5 +1,3 @@
-// SPDX-License-Identifier: Apache-2.0
-
 using System.Linq;
 using System.Security.Claims;
 using System.Threading.Tasks;

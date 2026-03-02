@@ -1,5 +1,3 @@
-// SPDX-License-Identifier: Apache-2.0
-
 using FluentAssertions;
 using OpenIdentityServer.EntityFramework.DbContexts;
 using OpenIdentityServer.EntityFramework.Options;

@@ -1,5 +1,3 @@
-// SPDX-License-Identifier: Apache-2.0
-
 using OpenIdentityServer.Validation;
 using Microsoft.Extensions.Logging;
 using System;

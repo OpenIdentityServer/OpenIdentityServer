@@ -1,5 +1,3 @@
-// SPDX-License-Identifier: Apache-2.0
-
 /*!
  * jQuery JavaScript Library v3.5.0 -ajax,-ajax/jsonp,-ajax/load,-ajax/script,-ajax/var/location,-ajax/var/nonce,-ajax/var/rquery,-ajax/xhr,-manipulation/_evalUrl,-deprecated/ajax-event-alias,-effects,-effects/Tween,-effects/animatedSelector
  * https://jquery.com/

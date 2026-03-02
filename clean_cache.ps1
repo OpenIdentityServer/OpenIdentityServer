@@ -1,5 +1,3 @@
-# SPDX-License-Identifier: Apache-2.0
-
 Remove-Item $env:USERPROFILE\.nuget\packages\openidentityserver\ -Recurse -ErrorAction SilentlyContinue 
 Remove-Item $env:USERPROFILE\.nuget\packages\openidentityserver.storage\ -Recurse -ErrorAction SilentlyContinue 
 Remove-Item $env:USERPROFILE\.nuget\packages\openidentityserver.entityframework\ -Recurse -ErrorAction SilentlyContinue 

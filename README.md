@@ -1,4 +1,3 @@
-SPDX-License-Identifier: Apache-2.0
 # OpenIdentityServer
 
 [![GitLab CI Pipeline Status](https://gitlab.com/2pNza/OpenIdentityServer/badges/main/pipeline.svg)](https://gitlab.com/2pNza/OpenIdentityServer/-/commits/main)

@@ -1,5 +1,3 @@
-/* SPDX-License-Identifier: Apache-2.0 */
-
 @mixin alert-variant($background, $border, $color) {
   color: $color;
   @include gradient-bg($background);

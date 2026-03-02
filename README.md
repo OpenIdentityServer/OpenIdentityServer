@@ -25,11 +25,11 @@ updated this code to match requested scopes with Api Resource Scopes as well.
 
 | Package Name                                      | Badge                                                                                              |
 |---------------------------------------------------|----------------------------------------------------------------------------------------------------|
-| OpenIdentityServer                            | [![NuGet](https://img.shields.io/nuget/v/2pNza.OpenIdentityServer.svg?style=for-the-badge)](https://www.nuget.org/packages/2pNza.OpenIdentityServer/) |
-| OpenIdentityServer.AspNetIdentity             | [![NuGet](https://img.shields.io/nuget/v/2pNza.OpenIdentityServer.AspNetIdentity.svg?style=for-the-badge)](https://www.nuget.org/packages/2pNza.OpenIdentityServer.AspNetIdentity/) |
-| OpenIdentityServer.EntityFramework            | [![NuGet](https://img.shields.io/nuget/v/2pNza.OpenIdentityServer.EntityFramework.svg?style=for-the-badge)](https://www.nuget.org/packages/2pNza.OpenIdentityServer.EntityFramework/) |
-| OpenIdentityServer.EntityFramework.Storage    | [![NuGet](https://img.shields.io/nuget/v/2pNza.OpenIdentityServer.EntityFramework.Storage.svg?style=for-the-badge)](https://www.nuget.org/packages/2pNza.OpenIdentityServer.EntityFramework.Storage/) |
-| OpenIdentityServer.Storage                    | [![NuGet](https://img.shields.io/nuget/v/2pNza.OpenIdentityServer.Storage.svg?style=for-the-badge)](https://www.nuget.org/packages/2pNza.OpenIdentityServer.Storage/) |
+| OpenIdentityServer                            | [![NuGet](https://img.shields.io/nuget/v/OpenIdentityServer.svg?style=for-the-badge)](https://www.nuget.org/packages/OpenIdentityServer/) |
+| OpenIdentityServer.AspNetIdentity             | [![NuGet](https://img.shields.io/nuget/v/OpenIdentityServer.AspNetIdentity.svg?style=for-the-badge)](https://www.nuget.org/packages/OpenIdentityServer.AspNetIdentity/) |
+| OpenIdentityServer.EntityFramework            | [![NuGet](https://img.shields.io/nuget/v/OpenIdentityServer.EntityFramework.svg?style=for-the-badge)](https://www.nuget.org/packages/OpenIdentityServer.EntityFramework/) |
+| OpenIdentityServer.EntityFramework.Storage    | [![NuGet](https://img.shields.io/nuget/v/OpenIdentityServer.EntityFramework.Storage.svg?style=for-the-badge)](https://www.nuget.org/packages/OpenIdentityServer.EntityFramework.Storage/) |
+| OpenIdentityServer.Storage                    | [![NuGet](https://img.shields.io/nuget/v/OpenIdentityServer.Storage.svg?style=for-the-badge)](https://www.nuget.org/packages/OpenIdentityServer.Storage/) |
 
 ## Branch structure
 Active development happens on the main branch. This always contains the latest version. Each (pre-) release is tagged with the corresponding version.

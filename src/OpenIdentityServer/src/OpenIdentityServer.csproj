@@ -11,6 +11,7 @@
     <PackageProjectUrl>https://gitlab.com/2pNza/OpenIdentityServer</PackageProjectUrl>
     <PackageLicenseExpression>LGPL-3.0-only</PackageLicenseExpression>
     <PackageReleaseNotes>https://gitlab.com/2pNza/OpenIdentityServer/releases</PackageReleaseNotes>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
 
     <!-- Declare that the Repository URL can be published to NuSpec -->
     <PublishRepositoryUrl>true</PublishRepositoryUrl>
@@ -33,6 +34,7 @@
   
   <ItemGroup>
     <None Include="../../../icon.jpg" Pack="true" Visible="false" PackagePath="" />
+    <None Include="../../../README.md" Pack="true" PackagePath="" />
   </ItemGroup>
 
   <ItemGroup>

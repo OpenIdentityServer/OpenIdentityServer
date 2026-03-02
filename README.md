@@ -3,15 +3,13 @@ SPDX-License-Identifier: Apache-2.0
 
 [![GitLab CI Pipeline Status](https://gitlab.com/2pNza/OpenIdentityServer/badges/main/pipeline.svg)](https://gitlab.com/2pNza/OpenIdentityServer/-/commits/main)
 [![Latest Release](https://gitlab.com/2pNza/OpenIdentityServer/-/badges/release.svg)](https://gitlab.com/2pNza/OpenIdentityServer/-/releases)
-[![License: LGPL v3](https://img.shields.io/badge/License-LGPL%20v3-blue.svg)](https://www.gnu.org/licenses/lgpl-3.0.html)
 
-<img width="155" height="51" alt="image" src="https://www.gnu.org/graphics/lgplv3-147x51.png" />
 
 ## About OpenIdentityServer
 
 OpenIdentityServer is a free, open source [OpenID Connect](http://openid.net/connect/) and [OAuth 2.0](https://tools.ietf.org/html/rfc6749) framework for ASP.NET Core.
 Founded and maintained by 2pNza, OpenIdentityServer incorporates all the protocol implementations and extensibility points needed to integrate token-based authentication, single-sign-on and API access control in your applications.
-It is licensed under **[GNU Lesser General Public License v3.0 (LGPL-3.0)](https://www.gnu.org/licenses/lgpl-3.0.html)**.
+It is licensed under Apache-2.0
 
 This is a fork of IdentityServer4 that is meant to keep existing software that depends on IdentityServer updated with the latest .NET version.
 
@@ -56,7 +54,7 @@ Thank you for your interest in contributing! Please read the following guideline
 ## Code Guidelines
 
 ### 🔹 Unique Contributions Only
-- This repository is licensed under **LGPL-3.0**.
+- This repository is licensed under **Apache-2.0**.
 - **Only original, unique code will be accepted.**
 - **Under no circumstances should code from Deunde IdentityServer or any other proprietary source be used.**
 - Deunde Identity Server uses a **different license**, and using their code in this project is **strictly prohibited**.
@@ -68,7 +66,7 @@ Thank you for your interest in contributing! Please read the following guideline
 
 ### 🔹 License Compliance
 - Be mindful of licensing when contributing.
-- Any imported code must be compatible with **LGPL-3.0**.
+- Any imported code must be compatible with **Apache-2.0**.
 
 ---
 

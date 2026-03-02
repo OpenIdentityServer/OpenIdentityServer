@@ -7,7 +7,7 @@ Thank you for your interest in contributing! Please read the following guideline
 ## Code Guidelines
 
 ### 🔹 Unique Contributions Only
-- This repository is licensed under **LGPL-3.0**.
+- This repository is licensed under **Apache-2.0**.
 - **Only original, unique code will be accepted.**
 - **Under no circumstances should code from Deunde IdentityServer or any other proprietary source be used.**
 - Deunde Identity Server uses a **different license**, and using their code in this project is **strictly prohibited**.
@@ -19,7 +19,7 @@ Thank you for your interest in contributing! Please read the following guideline
 
 ### 🔹 License Compliance
 - Be mindful of licensing when contributing.
-- Any imported code must be compatible with **LGPL-3.0**.
+- Any imported code must be compatible with **Apache-2.0**.
 
 ---
 

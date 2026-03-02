@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <PackageId>2pNza.OpenIdentityServer.EntityFramework.Storage</PackageId>
+    <PackageId>OpenIdentityServer.EntityFramework.Storage</PackageId>
     <TargetFrameworks>net8.0</TargetFrameworks>
     
     <Description>EntityFramework persistence layer for OpenIdentityServer</Description>
@@ -35,7 +35,7 @@
   </ItemGroup>
   
   <ItemGroup>
-    <PackageReference Include="2pNza.OpenIdentityServer.Storage" />
+    <PackageReference Include="OpenIdentityServer.Storage" />
     
     <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" />
 

@@ -25,11 +25,11 @@
     <!--our stuff -->
     <PackageReference Update="IdentityModel" Version="4.4.0" />
 
-    <PackageReference Update="2pNza.OpenIdentityServer" Version="$(OpenIdentityServerVersion)" />
-    <PackageReference Update="2pNza.OpenIdentityServer.AspNetIdentity" Version="$(OpenIdentityServerVersion)" />
-    <PackageReference Update="2pNza.OpenIdentityServer.Storage" Version="$(OpenIdentityServerVersion)" />
-    <PackageReference Update="2pNza.OpenIdentityServer.EntityFramework.Storage" Version="$(OpenIdentityServerVersion)" />
-    <PackageReference Update="2pNza.OpenIdentityServer.EntityFramework" Version="$(OpenIdentityServerVersion)" />
+    <PackageReference Update="OpenIdentityServer" Version="$(OpenIdentityServerVersion)" />
+    <PackageReference Update="OpenIdentityServer.AspNetIdentity" Version="$(OpenIdentityServerVersion)" />
+    <PackageReference Update="OpenIdentityServer.Storage" Version="$(OpenIdentityServerVersion)" />
+    <PackageReference Update="OpenIdentityServer.EntityFramework.Storage" Version="$(OpenIdentityServerVersion)" />
+    <PackageReference Update="OpenIdentityServer.EntityFramework" Version="$(OpenIdentityServerVersion)" />
 
     <!--microsoft extensions -->
     <PackageReference Update="Microsoft.Extensions.Caching.Memory" Version="$(ExtensionsVersion)" />

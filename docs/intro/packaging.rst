@@ -11,9 +11,9 @@ Contains the core IdentityServer object model, services and middleware as well a
 
 nugets:
 
-* `OpenIdentityServer <https://www.nuget.org/packages/2pNza.OpenIdentityServer/>`_
-* `OpenIdentityServer.EntityFramework <https://www.nuget.org/packages/2pNza.OpenIdentityServer.EntityFramework/>`_
-* `OpenIdentityServer.AspNetIdentity <https://www.nuget.org/packages/2pNza.OpenIdentityServer.AspNetIdentity/>`_
+* `OpenIdentityServer <https://www.nuget.org/packages/OpenIdentityServer/>`_
+* `OpenIdentityServer.EntityFramework <https://www.nuget.org/packages/OpenIdentityServer.EntityFramework/>`_
+* `OpenIdentityServer.AspNetIdentity <https://www.nuget.org/packages/OpenIdentityServer.AspNetIdentity/>`_
 
 Quickstart UI
 ^^^^^^^^^^^^^

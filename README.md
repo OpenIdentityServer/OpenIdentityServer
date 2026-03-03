@@ -2,7 +2,7 @@
 
 [![GitLab CI Pipeline Status](https://gitlab.com/2pNza/OpenIdentityServer/badges/main/pipeline.svg)](https://gitlab.com/2pNza/OpenIdentityServer/-/commits/main)
 [![Latest Release](https://gitlab.com/2pNza/OpenIdentityServer/-/badges/release.svg)](https://gitlab.com/2pNza/OpenIdentityServer/-/releases)
-
+![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)
 
 ## About OpenIdentityServer
 

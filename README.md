@@ -12,11 +12,15 @@ It is licensed under Apache-2.0
 
 This is a fork of IdentityServer4 that is meant to keep existing software that depends on IdentityServer updated with the latest .NET version.
 
-## Changes to OpenIdentityServer
-Our goal is to keep any core changes to OpenIdentityServer to a minimal so compatibility is maximized. Below you can find some of those changes in order to decide if they could affect your project:
+---
 
-* Api Resource Scopes can be used as Api Scopes: when validating a authorize request, OpenIdentityServer validates scopes based on existing Api Resources and Api Scopes. We have 
-updated this code to match requested scopes with Api Resource Scopes as well.
+## ⚠️ Check your URL — the repository you’re viewing may be a mirror
+
+Active development happens in the primary repository: https://gitlab.com/2pNza/OpenIdentityServer
+Please submit code changes, issues or bugs in the main repository.
+Contributions made in a mirror repository will be automatically overridden!
+
+---
 
 ## NuGet Packages
 
